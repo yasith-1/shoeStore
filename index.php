@@ -20,9 +20,9 @@
     <link rel="stylesheet" href="style.css">
     <!-- link css file -->
 
+<link rel="shortcut icon" href="resources/skylinelogo.png" type="image/x-icon">
 
-
-    <title>Shoe Store</title>
+    <title>SKYLINE</title>
 </head>
 
 <body class="body-bg-effect bgimage">
@@ -32,18 +32,17 @@
 
 
         <div class="glass shadow shadow-lg rounded-3 " style="width: 90%;">
-            <nav class="navbar navbar-expand-lg">
+            <nav class="navbar navbar-expand-lg px-0">
                 <div class="container-fluid d-flex justify-content-center gap-5">
-                    <a class="navbar-brand" href="index.php">
-                        <img src="./resources/skyline.png" class="rounded-pill" alt="Logo" width="45" class="d-inline-block align-text-top">
-                        <span class="fw-bold ms-0" style="font-family: poppins; letter-spacing: 1px; font-size: 30px;">SKYLINE</span>
-                        
+                    <a class="navbar-brand justify-content-center align-items-center d-flex gap-3" href="index.php">
+                        <img src="./resources/skylinelogo.png" class="rounded-pill" alt="Logo" width="90" class="d-inline-block align-text-top">
+                        <!-- <span class="fw-bold text-light" style="font-family: poppins; letter-spacing: 1px; font-size: 30px;">SKYLINE</span> -->
                     </a>
 
 
 
                     <section>
-                        <button class="navbar-toggler text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <button class="navbar-toggler border border-light text-warning" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
                     </section>
@@ -56,27 +55,14 @@
                         <div class="collapse navbar-collapse " id="navbarSupportedContent">
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
 
-                                <li class="nav-item btn btn-outline-danger nav-item-width">
-                                    <a class="nav-link active custom-font text-dark p-0" aria-current="page" href="#">Home</a>
+                                <li class="nav-item nav-item-width btn btn-secondary bg-transparent border-0">
+                                    <a class="nav-link active custom-font text-light fw-semibold t p-0" style="font-size: 18px; font-family: poppins;" aria-current="page" href="#">Home</a>
                                 </li>
                                 &nbsp;&nbsp;&nbsp;&nbsp;
 
-                                <!-- <li class="nav-item">
-                            <a class="nav-link active custom-font " aria-current="page" href="#">Mens Shoes</a>
-                        </li>
-                        &nbsp;&nbsp;&nbsp;&nbsp;
-
-                        <li class="nav-item">
-                            <a class="nav-link active custom-font " aria-current="page" href="#">Women Shoes</a>
-                        </li>
-                        &nbsp;&nbsp;&nbsp;&nbsp;
-                        <li class="nav-item">
-                            <a class="nav-link active custom-font" href="#">Kids Shoes</a>
-                        </li> -->
-
                                 <!-- Dropdown -->
-                                <li class="nav-item dropdown btn btn-outline-info nav-item-width">
-                                    <a class="nav-link dropdown-toggle custom-font text-dark p-0" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <li class="nav-item dropdown nav-item-width btn btn-secondary bg-transparent border-0">
+                                    <a class="nav-link dropdown-toggle custom-font text-light fw-semibold p-0" style="font-size: 18px; font-family: poppins;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                         Category
                                     </a>
                                     <ul class="dropdown-menu">
@@ -94,13 +80,13 @@
                                 <!-- Dropdown -->
 
                                 &nbsp;&nbsp;&nbsp;&nbsp;
-                                <li class="nav-item btn btn-outline-info nav-item-width">
-                                    <a class="nav-link active custom-font text-dark p-0" href="#">Our Story</a>
+                                <li class="nav-item nav-item-width btn btn-secondary bg-transparent border-0">
+                                    <a class="nav-link active custom-font text-light fw-semibold  p-0" style="font-size: 18px; font-family: poppins;" href="#">Our Story</a>
                                 </li>
 
                                 &nbsp;&nbsp;&nbsp;&nbsp;
-                                <li class="nav-item btn btn-outline-info nav-item-width">
-                                    <a class="nav-link active custom-font text-dark p-0" href="#">Contact Us</a>
+                                <li class="nav-item btn btn-outline-secondary nav-item-width">
+                                    <a class="nav-link active custom-font text-light fw-semibold p-0" style="font-size: 18px; font-family: poppins;" href="#">Contact Us</a>
                                 </li>
 
                             </ul>
@@ -114,13 +100,13 @@
         </div>
 
     </section>
-    <!-- Navbar end  ---------------------------------------------------------------------------------------------------------------------------->
+    <!-- Navbar end  ------------------------------------------------------------------------------------------------------------------------------------>
 
 
-    <!-- carosoul -->
-    <section class="d-block justify-content- border border-dark">
+    <!-- carosoul start---------------------------------------------------------------------------------------------------------------------------------->
+    <section class="d-block justify-content-center">
 
-        <div class="container-fluid carasoularea border border-danger col-12 col-lg-9">
+        <div class="container-fluid carasoularea col-12 col-lg-9">
 
             <!-- Carousel Card -->
             <div class="card card-raised card-carousel">
@@ -132,30 +118,30 @@
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img class="d-block w-100" src="https://rawgit.com/creativetimofficial/material-kit/master/assets/img/bg.jpg"
+                            <img class="d-block w-100" src="resources/pair.png"
                                 alt="First slide">
                             <div class="carousel-caption d-none d-md-block">
                                 <h4>
-                                    <i class="material-icons">location_on</i>
-                                    Yellowstone National Park, United States
+                                    <!-- <i class="material-icons">location_on</i> -->
+                                    Nike Premium Quality Vietnam Imported Shoe
                                 </h4>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100" src="https://rawgit.com/creativetimofficial/material-kit/master/assets/img/bg2.jpg" alt="Second slide">
+                            <img class="d-block w-100" src="resources/forest.png" alt="Second slide">
                             <div class="carousel-caption d-none d-md-block">
                                 <h4>
-                                    <i class="material-icons">location_on</i>
-                                    Somewhere Beyond, United States
+                                    Nike Premium Quality Vietnam Imported Shoe
+
                                 </h4>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100" src="https://rawgit.com/creativetimofficial/material-kit/master/assets/img/bg3.jpg" alt="Third slide">
+                            <img class="d-block w-100" src="resources/newbalance.png" alt="Third slide">
                             <div class="carousel-caption d-none d-md-block">
                                 <h4>
-                                    <i class="material-icons">location_on</i>
-                                    Yellowstone National Park, United States
+                                    Newbalance Premium Quality Vietnam Imported Shoe
+
                                 </h4>
                             </div>
                         </div>
@@ -176,21 +162,8 @@
 
 
     </section>
-    <!-- carosoul -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <!-- carosoul end ------------------------------------------------------------------------------------------------------------------------------->
+     
 
 
 
