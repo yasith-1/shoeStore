@@ -1,14 +1,18 @@
-/* carosoul */
+.body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
-#owl-demo .item{
-    background: #42bdc2;
-    padding: 30px 0px;
-    margin: 10px;
-    color: #FFF;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
-    text-align: center;
-  }
+.custom-font{
+    font-family: poppins;
+    font-size: 15px;
+}
 
-/* carosoul */
+.custom-font:hover{
+    color: black;
+}
+
+.nav-item-width{
+    width: 130px;
+}
