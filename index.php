@@ -169,7 +169,7 @@
 
     <!-- Horizontal logo set start--------------------------------------------------------------------------------------------------------------------->
 
-    <section class="border border-light pb-5 text-center">
+    <section class="pb-5 ">
 
         <div class="container hldh ">
 
@@ -210,6 +210,144 @@
     </section>
 
     <!-- Horizontal logo set end ------------------------------------------------------------------------------------------------------------->
+
+
+
+
+    <!-- Product Cards Start ------------------------------------------------------------------------------------------------------------------>
+
+    <section class="pcah">
+        <div class="container-fluid col-10 d-flex justify-content-center mt-2">
+            <div class="row justify-content-center">
+                <div>
+                    <h3 class="fw-bold text-light text-center" style="font-family: poppins;">SHOP NOW</h3>
+                    <hr class="text-light ">
+                </div>
+
+                <!-- Product Card row 1 -->
+
+                <div class="col-lg-3 col-md-4 col-sm-12 mb-4 d-flex justify-content-center">
+                    <div class="card text-center bg-transparent rounded-4 glass-look animate-effect" style="width: 18rem;">
+                        <img src="resources/nike.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-light">Card title</h5>
+                            <p class="card-text text-light">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-12 mb-4 d-flex justify-content-center">
+                    <div class="card text-center bg-transparent rounded-4 glass-look animate-effect" style="width: 18rem;">
+                        <img src="resources/nike.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-light">Card title</h5>
+                            <p class="card-text text-light">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-12 mb-4 d-flex justify-content-center">
+                    <div class="card text-center bg-transparent rounded-4 glass-look animate-effect" style="width: 18rem;">
+                        <img src="resources/nike.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-light">Card title</h5>
+                            <p class="card-text text-light">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-12 mb-4 d-flex justify-content-center">
+                    <div class="card text-center bg-transparent rounded-4 glass-look animate-effect" style="width: 18rem;">
+                        <img src="resources/nike.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-light">Card title</h5>
+                            <p class="card-text text-light">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Product Card row 1 -->
+
+
+
+                <!-- Product Card row 2 -->
+                 
+                <div class="col-lg-3 col-md-4 col-sm-12 mb-4 d-flex justify-content-center">
+                    <div class="card text-center bg-transparent rounded-4 glass-look animate-effect" style="width: 18rem;">
+                        <img src="resources/nike.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-light">Card title</h5>
+                            <p class="card-text text-light">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-12 mb-4 d-flex justify-content-center">
+                    <div class="card text-center bg-transparent rounded-4 glass-look animate-effect" style="width: 18rem;">
+                        <img src="resources/nike.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-light">Card title</h5>
+                            <p class="card-text text-light">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-12 mb-4 d-flex justify-content-center">
+                    <div class="card text-center bg-transparent rounded-4 glass-look animate-effect" style="width: 18rem;">
+                        <img src="resources/nike.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-light">Card title</h5>
+                            <p class="card-text text-light">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-12 mb-4 d-flex justify-content-center">
+                    <div class="card text-center bg-transparent rounded-4 glass-look animate-effect" style="width: 18rem;">
+                        <img src="resources/nike.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-light">Card title</h5>
+                            <p class="card-text text-light">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Product Card row 2 -->
+
+
+                
+
+                
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Cards End ------------------------------------------------------------------------------------------------------------------>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

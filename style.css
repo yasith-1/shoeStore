@@ -160,7 +160,7 @@
 
 /* Caraousal --------------------------------------------------------------------------------------------*/
 
-/* Horizontal logo set div height */
+/* Horizontal logo set div height -----------------------------------------------------------------------*/
 
 .hldh {
   min-height: 30vh;
@@ -170,13 +170,58 @@
 .glass-look {
   background-color: rgba(255, 255, 255, 0.103);
   box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
   backdrop-filter: blur(15px);
 }
 
-.animate-effect:hover{
+.animate-effect:hover {
   transition: transform 0.4s ease;
   transform: scale(1.05);
   box-shadow: 0px 8px 16px rgba(255, 255, 255, 0.3);
 }
 
-/* Horizontal logo set div height */
+/* Horizontal logo set div height -----------------------------------------------------------------------------*/
+
+/* Product card area height------------------------------------------------------------------------------------ */
+
+.pcah {
+  /* min-height: 100vh; */
+  margin-top: 60px;
+}
+
+.card {
+  cursor: pointer;
+}
+
+/* Increase opacity and reduce blur for small devices */
+@media (max-width: 576px) {
+  .glass-look {
+    background-color: rgba(255, 255, 255, 0.103);
+    backdrop-filter: none;
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Optional: adjust border */
+    border-radius: 20px;
+  }
+
+  .card-title,
+  .card-text {
+    font-size: 0.9rem; /* Slightly smaller font */
+  }
+}
+
+
+/* Increase opacity and reduce blur for Medium devices */
+@media (max-width: 768px) {
+  .glass-look {
+    background-color: rgba(255, 255, 255, 0.103);
+    backdrop-filter: none;
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Optional: adjust border */
+    border-radius: 20px;
+  }
+
+  .card-title,
+  .card-text {
+    font-size: 0.9rem; /* Slightly smaller font */
+  }
+}
+
+/* Product card area height------------------------------------------------------------------------------------ */
