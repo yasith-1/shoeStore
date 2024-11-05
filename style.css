@@ -24,7 +24,7 @@
   right: 0;
   bottom: 0;
   filter: blur(15px); /* Adjust the blur intensity here */
-  z-index: -1;
+  z-index: -100;
 }
 
 /* Bg image ------------------------------------------------------------------ */
@@ -50,7 +50,7 @@
 .carasoularea {
   min-height: 60vh;
   margin-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 /* Caraousal -------------------------------------------------------------------------*/
@@ -80,7 +80,7 @@
   text-indent: -999px;
   cursor: pointer;
   border: 1px solid #fff;
-  border-radius: 20px;
+  border-radius: 10px;
   background: #fff;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
     0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
@@ -116,6 +116,7 @@
   transition: transform 0.6s ease;
   backface-visibility: hidden;
   perspective: 1000px;
+  border-radius: 20px;
 }
 
 .carousel-item.active {
@@ -158,3 +159,24 @@
 }
 
 /* Caraousal --------------------------------------------------------------------------------------------*/
+
+/* Horizontal logo set div height */
+
+.hldh {
+  min-height: 30vh;
+  margin-top: 50px;
+}
+
+.glass-look {
+  background-color: rgba(255, 255, 255, 0.103);
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(15px);
+}
+
+.animate-effect:hover{
+  transition: transform 0.4s ease;
+  transform: scale(1.05);
+  box-shadow: 0px 8px 16px rgba(255, 255, 255, 0.3);
+}
+
+/* Horizontal logo set div height */

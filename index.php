@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="style.css">
     <!-- link css file -->
 
-<link rel="shortcut icon" href="resources/skylinelogo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="resources/skylinelogo.png" type="image/x-icon">
 
     <title>SKYLINE</title>
 </head>
@@ -28,7 +28,7 @@
 <body class="body-bg-effect bgimage">
 
     <!-- Navbar start  ---------------------------------------------------------------------------------------------------------------------------->
-    <section class="sticky-top  d-flex justify-content-center mt-3">
+    <section class="sticky-top  d-flex justify-content-center mt-3 ">
 
 
         <div class="glass shadow shadow-lg rounded-3 " style="width: 90%;">
@@ -104,7 +104,7 @@
 
 
     <!-- carosoul start---------------------------------------------------------------------------------------------------------------------------------->
-    <section class="d-block justify-content-center">
+    <section class="justify-content-center d-none d-md-block">
 
         <div class="container-fluid carasoularea col-12 col-lg-9">
 
@@ -122,11 +122,11 @@
                                 alt="First slide">
                             <div class="carousel-caption d-none d-md-block">
                                 <h4>
-                                    <!-- <i class="material-icons">location_on</i> -->
                                     Nike Premium Quality Vietnam Imported Shoe
                                 </h4>
                             </div>
                         </div>
+
                         <div class="carousel-item">
                             <img class="d-block w-100" src="resources/forest.png" alt="Second slide">
                             <div class="carousel-caption d-none d-md-block">
@@ -136,6 +136,7 @@
                                 </h4>
                             </div>
                         </div>
+
                         <div class="carousel-item">
                             <img class="d-block w-100" src="resources/newbalance.png" alt="Third slide">
                             <div class="carousel-caption d-none d-md-block">
@@ -163,8 +164,52 @@
 
     </section>
     <!-- carosoul end ------------------------------------------------------------------------------------------------------------------------------->
-     
 
+
+
+    <!-- Horizontal logo set start--------------------------------------------------------------------------------------------------------------------->
+
+    <section class="border border-light pb-5 text-center">
+
+        <div class="container hldh ">
+
+            <div class="row  justify-content-center gap-5 flex-wrap px-0 px-sm-2">
+
+                <div>
+                    <h3 class="fw- text-light text-center" style="font-family: poppins;">Our Features</h3>
+                    <hr class="text-light ">
+                </div>
+
+                <div class="col border border-secondary py-3 rounded-4 text-center glass-look animate-effect">
+                    <img src="resources/delivery.png" alt="image">
+                    <h4 class="text-light">Fast Delivery</h4>
+                    <span class="text-light">Within 1-3 Days</span>
+                </div>
+
+                <div class="col border border-secondary py-3 rounded-4 text-center glass-look animate-effect">
+                    <img src="resources/cod.png" alt="">
+                    <h4 class="text-light">Trusted Payment</h4>
+                    <span class="text-light">COD Available</span>
+                </div>
+
+                <div class="col border border-secondary py-3 rounded-4 text-center glass-look animate-effect">
+                    <img src="resources/exchanging.png" alt="">
+                    <h4 class="text-light">Return Option</h4>
+                    <span class="text-light">Return Within 7 Days</span>
+                </div>
+
+                <div class="col border border-secondary py-3 rounded-4 text-center glass-look animate-effect">
+                    <img src="resources/payment.png" alt="">
+                    <h4 class="text-light">Payments</h4>
+                    <span class="text-light">COD | Bank Deposit</span>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Horizontal logo set end ------------------------------------------------------------------------------------------------------------->
 
 
 
