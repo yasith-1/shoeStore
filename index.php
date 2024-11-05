@@ -127,7 +127,7 @@
                     </div>
 
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="resources/forest.png" alt="Second slide">
+                        <img class="d-block w-100" src="resources/highcutnike.png" alt="Second slide">
                         <div class="carousel-caption d-none d-md-block">
                             <h4>
                                 Nike Premium Quality Vietnam Imported Shoe
