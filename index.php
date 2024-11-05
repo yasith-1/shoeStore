@@ -32,17 +32,17 @@
 
 
         <div class="glass shadow shadow-lg rounded-3 " style="width: 90%;">
-            <nav class="navbar navbar-expand-lg px-0">
+            <nav class="navbar navbar-dark navbar-expand-lg px-0">
                 <div class="container-fluid d-flex justify-content-center gap-5">
                     <a class="navbar-brand justify-content-center align-items-center d-flex gap-3" href="index.php">
-                        <img src="./resources/skylinelogo.png" class="rounded-pill" alt="Logo" width="90" class="d-inline-block align-text-top">
+                        <img src="./resources/skylinelogo.png" class="rounded-pill" alt="Logo" width="60" class="d-inline-block align-text-top">
                         <!-- <span class="fw-bold text-light" style="font-family: poppins; letter-spacing: 1px; font-size: 30px;">SKYLINE</span> -->
                     </a>
 
 
 
                     <section>
-                        <button class="navbar-toggler border border-light text-warning" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
                     </section>
