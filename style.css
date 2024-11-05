@@ -162,9 +162,9 @@
 
 /* Horizontal logo set div height -----------------------------------------------------------------------*/
 
-.hldh {
-  min-height: 30vh;
-  margin-top: 50px;
+.hlw {
+  width: 310px;
+  height: 250px;
 }
 
 .glass-look {
@@ -182,12 +182,10 @@
 
 /* Horizontal logo set div height -----------------------------------------------------------------------------*/
 
-/* Product card area height------------------------------------------------------------------------------------ */
 
-.pcah {
-  /* min-height: 100vh; */
-  margin-top: 60px;
-}
+
+
+/* Product card area height------------------------------------------------------------------------------------ */
 
 .card {
   cursor: pointer;
@@ -207,7 +205,6 @@
     font-size: 0.9rem; /* Slightly smaller font */
   }
 }
-
 
 /* Increase opacity and reduce blur for Medium devices */
 @media (max-width: 768px) {

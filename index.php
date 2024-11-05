@@ -104,109 +104,116 @@
 
 
     <!-- carosoul start---------------------------------------------------------------------------------------------------------------------------------->
-    <section class="justify-content-center d-none d-md-block">
 
-        <div class="container-fluid carasoularea col-12 col-lg-9">
+    <div class="container-fluid carasoularea col-12 col-lg-9 justify-content-center d-none d-md-block mb-5">
 
-            <!-- Carousel Card -->
-            <div class="card card-raised card-carousel">
-                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="3000">
-                    <ol class="carousel-indicators">
-                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="1" class=""></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="2" class=""></li>
-                    </ol>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img class="d-block w-100" src="resources/pair.png"
-                                alt="First slide">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h4>
-                                    Nike Premium Quality Vietnam Imported Shoe
-                                </h4>
-                            </div>
-                        </div>
-
-                        <div class="carousel-item">
-                            <img class="d-block w-100" src="resources/forest.png" alt="Second slide">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h4>
-                                    Nike Premium Quality Vietnam Imported Shoe
-
-                                </h4>
-                            </div>
-                        </div>
-
-                        <div class="carousel-item">
-                            <img class="d-block w-100" src="resources/newbalance.png" alt="Third slide">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h4>
-                                    Newbalance Premium Quality Vietnam Imported Shoe
-
-                                </h4>
-                            </div>
+        <!-- Carousel Card -->
+        <div class="card card-raised card-carousel">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="3000">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1" class=""></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2" class=""></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="resources/pair.png"
+                            alt="First slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h4>
+                                Nike Premium Quality Vietnam Imported Shoe
+                            </h4>
                         </div>
                     </div>
-                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                        <i class="material-icons">keyboard_arrow_left</i>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                        <i class="material-icons">keyboard_arrow_right</i>
-                        <span class="sr-only">Next</span>
-                    </a>
+
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="resources/forest.png" alt="Second slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h4>
+                                Nike Premium Quality Vietnam Imported Shoe
+
+                            </h4>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="resources/newbalance.png" alt="Third slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h4>
+                                Newbalance Premium Quality Vietnam Imported Shoe
+
+                            </h4>
+                        </div>
+                    </div>
                 </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <i class="material-icons">keyboard_arrow_left</i>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <i class="material-icons">keyboard_arrow_right</i>
+                    <span class="sr-only">Next</span>
+                </a>
             </div>
-            <!-- End Carousel Card -->
-
         </div>
+        <!-- End Carousel Card -->
 
+    </div>
 
-    </section>
     <!-- carosoul end ------------------------------------------------------------------------------------------------------------------------------->
 
 
 
     <!-- Horizontal logo set start--------------------------------------------------------------------------------------------------------------------->
 
-    <section class="pb-5 ">
+    <section>
 
-        <div class="container hldh ">
+        <div class="container d-flex flex-column justify-content-center mt-sm-0 mt-5">
 
-            <div class="row  justify-content-center gap-5 flex-wrap px-0 px-sm-2">
+            <div>
+                <h3 class="fw- text-light text-center" style="font-family: poppins;">Our Features</h3>
+                <hr class="text-light ">
+            </div>
 
-                <div>
-                    <h3 class="fw- text-light text-center" style="font-family: poppins;">Our Features</h3>
-                    <hr class="text-light ">
+            <div class="row col-12 justify-content-center gap-3">
+
+                <div class="col-12 col-md-6 hlw">
+                    <div class="border border-secondary py-3 rounded-4 glass-look animate-effect text-center">
+                        <img src="resources/delivery.png" alt="image">
+                        <h4 class="text-light">Fast Delivery</h4>
+                        <span class="text-light">Within 1-3 Days</span>
+                    </div>
                 </div>
 
-                <div class="col border border-secondary py-3 rounded-4 text-center glass-look animate-effect">
-                    <img src="resources/delivery.png" alt="image">
-                    <h4 class="text-light">Fast Delivery</h4>
-                    <span class="text-light">Within 1-3 Days</span>
+                <div class="col-12 col-md-6 hlw">
+                    <div class="border border-secondary py-3 rounded-4 glass-look animate-effect text-center">
+                        <img src="resources/cod.png" alt="">
+                        <h4 class="text-light">Trusted Payment</h4>
+                        <span class="text-light">COD Available</span>
+                    </div>
                 </div>
 
-                <div class="col border border-secondary py-3 rounded-4 text-center glass-look animate-effect">
-                    <img src="resources/cod.png" alt="">
-                    <h4 class="text-light">Trusted Payment</h4>
-                    <span class="text-light">COD Available</span>
+                <div class="col-12 col-md-6 hlw">
+                    <div class="border border-secondary py-3 rounded-4 glass-look animate-effect text-center">
+                        <img src="resources/exchanging.png" alt="">
+                        <h4 class="text-light">Return Option</h4>
+                        <span class="text-light">Return Within 7 Days</span>
+                    </div>
                 </div>
 
-                <div class="col border border-secondary py-3 rounded-4 text-center glass-look animate-effect">
-                    <img src="resources/exchanging.png" alt="">
-                    <h4 class="text-light">Return Option</h4>
-                    <span class="text-light">Return Within 7 Days</span>
+                <div class="col-12 col-md-6 hlw">
+                    <div class="border border-secondary py-3 rounded-4 glass-look animate-effect text-center">
+                        <img src="resources/payment.png" alt="">
+                        <h4 class="text-light">Payments</h4>
+                        <span class="text-light">COD | Bank Deposit</span>
+                    </div>
                 </div>
 
-                <div class="col border border-secondary py-3 rounded-4 text-center glass-look animate-effect">
-                    <img src="resources/payment.png" alt="">
-                    <h4 class="text-light">Payments</h4>
-                    <span class="text-light">COD | Bank Deposit</span>
-                </div>
 
             </div>
 
         </div>
+
     </section>
 
     <!-- Horizontal logo set end ------------------------------------------------------------------------------------------------------------->
@@ -216,9 +223,9 @@
 
     <!-- Product Cards Start ------------------------------------------------------------------------------------------------------------------>
 
-    <section class="pcah">
-        <div class="container-fluid col-10 d-flex justify-content-center mt-2">
-            <div class="row justify-content-center">
+    <section>
+        <div class="container d-flex justify-content-center mt-5">
+            <div class="row col-12 justify-content-center">
                 <div>
                     <h3 class="fw-bold text-light text-center" style="font-family: poppins;">SHOP NOW</h3>
                     <hr class="text-light ">
@@ -226,46 +233,82 @@
 
                 <!-- Product Card row 1 -->
 
-                <div class="col-lg-3 col-md-4 col-sm-12 mb-4 d-flex justify-content-center">
-                    <div class="card text-center bg-transparent rounded-4 glass-look animate-effect" style="width: 18rem;">
-                        <img src="resources/nike.png" class="card-img-top" alt="...">
+                <div class="col-10 col-md-6 col-lg-3 mb-5 d-flex justify-content-center">
+                    <div class="card text-center bg-transparent rounded-4 glass-look animate-effect border border-secondary">
+                        <img src="resources/zero.png" class="card-img img-fluid rounded-top-4" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title text-light">Card title</h5>
-                            <p class="card-text text-light">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <h4 class="card-title text-light fw-bold">Nike Airforce</h4>
+                            <p class="card-text text-light">Vietnam Imported Nike Air Force 1 Premium Quality</p>
+                            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                        </div>
+                        <div class="row justify-content-center p-3">
+                            <div class="col-6 d-grid ">
+                                <a href="#" class="btn btn-outline-warning">View</a>
+                            </div>
+
+                            <div class="col-6 d-grid ">
+                                <a href="#" class="btn btn-outline-light">View</a>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-4 col-sm-12 mb-4 d-flex justify-content-center">
-                    <div class="card text-center bg-transparent rounded-4 glass-look animate-effect" style="width: 18rem;">
-                        <img src="resources/nike.png" class="card-img-top" alt="...">
+                <div class="col-10 col-md-6 col-lg-3 mb-5 d-flex justify-content-center">
+                    <div class="card text-center bg-transparent rounded-4 glass-look animate-effect border border-secondary">
+                        <img src="resources/zero.png" class="card-img img-fluid rounded-top-4" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title text-light">Card title</h5>
-                            <p class="card-text text-light">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <h4 class="card-title text-light fw-bold">Nike Airforce</h4>
+                            <p class="card-text text-light">Vietnam Imported Nike Air Force 1 Premium Quality</p>
+                            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                        </div>
+                        <div class="row justify-content-center p-3">
+                            <div class="col-6 d-grid ">
+                                <a href="#" class="btn btn-outline-warning">View</a>
+                            </div>
+
+                            <div class="col-6 d-grid ">
+                                <a href="#" class="btn btn-outline-light">View</a>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-4 col-sm-12 mb-4 d-flex justify-content-center">
-                    <div class="card text-center bg-transparent rounded-4 glass-look animate-effect" style="width: 18rem;">
-                        <img src="resources/nike.png" class="card-img-top" alt="...">
+                <div class="col-10 col-md-6 col-lg-3 mb-5 d-flex justify-content-center">
+                    <div class="card text-center bg-transparent rounded-4 glass-look animate-effect border border-secondary">
+                        <img src="resources/zero.png" class="card-img img-fluid rounded-top-4" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title text-light">Card title</h5>
-                            <p class="card-text text-light">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <h4 class="card-title text-light fw-bold">Nike Airforce</h4>
+                            <p class="card-text text-light">Vietnam Imported Nike Air Force 1 Premium Quality</p>
+                            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                        </div>
+                        <div class="row justify-content-center p-3">
+                            <div class="col-6 d-grid ">
+                                <a href="#" class="btn btn-outline-warning">View</a>
+                            </div>
+
+                            <div class="col-6 d-grid ">
+                                <a href="#" class="btn btn-outline-light">View</a>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-4 col-sm-12 mb-4 d-flex justify-content-center">
-                    <div class="card text-center bg-transparent rounded-4 glass-look animate-effect" style="width: 18rem;">
-                        <img src="resources/nike.png" class="card-img-top" alt="...">
+                <div class="col-10 col-md-6 col-lg-3 mb-5 d-flex justify-content-center">
+                    <div class="card text-center bg-transparent rounded-4 glass-look animate-effect border border-secondary">
+                        <img src="resources/zero.png" class="card-img img-fluid rounded-top-4" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title text-light">Card title</h5>
-                            <p class="card-text text-light">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <h4 class="card-title text-light fw-bold">Nike Airforce</h4>
+                            <p class="card-text text-light">Vietnam Imported Nike Air Force 1 Premium Quality</p>
+                            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                        </div>
+                        <div class="row justify-content-center p-3">
+                            <div class="col-6 d-grid ">
+                                <a href="#" class="btn btn-outline-warning">View</a>
+                            </div>
+
+                            <div class="col-6 d-grid ">
+                                <a href="#" class="btn btn-outline-light">View</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -276,47 +319,83 @@
 
 
                 <!-- Product Card row 2 -->
-                 
-                <div class="col-lg-3 col-md-4 col-sm-12 mb-4 d-flex justify-content-center">
-                    <div class="card text-center bg-transparent rounded-4 glass-look animate-effect" style="width: 18rem;">
-                        <img src="resources/nike.png" class="card-img-top" alt="...">
+
+                <div class="col-10 col-md-6 col-lg-3 mb-5 d-flex justify-content-center">
+                    <div class="card text-center bg-transparent rounded-4 glass-look animate-effect border border-secondary">
+                        <img src="resources/zero.png" class="card-img img-fluid rounded-top-4" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title text-light">Card title</h5>
-                            <p class="card-text text-light">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <h4 class="card-title text-light fw-bold">Nike Airforce</h4>
+                            <p class="card-text text-light">Vietnam Imported Nike Air Force 1 Premium Quality</p>
+                            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                        </div>
+                        <div class="row justify-content-center p-3">
+                            <div class="col-6 d-grid ">
+                                <a href="#" class="btn btn-outline-warning">View</a>
+                            </div>
+
+                            <div class="col-6 d-grid ">
+                                <a href="#" class="btn btn-outline-light">View</a>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-4 col-sm-12 mb-4 d-flex justify-content-center">
-                    <div class="card text-center bg-transparent rounded-4 glass-look animate-effect" style="width: 18rem;">
-                        <img src="resources/nike.png" class="card-img-top" alt="...">
+                <div class="col-10 col-md-6 col-lg-3 mb-5 d-flex justify-content-center">
+                    <div class="card text-center bg-transparent rounded-4 glass-look animate-effect border border-secondary">
+                        <img src="resources/zero.png" class="card-img img-fluid rounded-top-4" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title text-light">Card title</h5>
-                            <p class="card-text text-light">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <h4 class="card-title text-light fw-bold">Nike Airforce</h4>
+                            <p class="card-text text-light">Vietnam Imported Nike Air Force 1 Premium Quality</p>
+                            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                        </div>
+                        <div class="row justify-content-center p-3">
+                            <div class="col-6 d-grid ">
+                                <a href="#" class="btn btn-outline-warning">View</a>
+                            </div>
+
+                            <div class="col-6 d-grid ">
+                                <a href="#" class="btn btn-outline-light">View</a>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-4 col-sm-12 mb-4 d-flex justify-content-center">
-                    <div class="card text-center bg-transparent rounded-4 glass-look animate-effect" style="width: 18rem;">
-                        <img src="resources/nike.png" class="card-img-top" alt="...">
+                <div class="col-10 col-md-6 col-lg-3 mb-5 d-flex justify-content-center">
+                    <div class="card text-center bg-transparent rounded-4 glass-look animate-effect border border-secondary">
+                        <img src="resources/zero.png" class="card-img img-fluid rounded-top-4" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title text-light">Card title</h5>
-                            <p class="card-text text-light">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <h4 class="card-title text-light fw-bold">Nike Airforce</h4>
+                            <p class="card-text text-light">Vietnam Imported Nike Air Force 1 Premium Quality</p>
+                            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                        </div>
+                        <div class="row justify-content-center p-3">
+                            <div class="col-6 d-grid ">
+                                <a href="#" class="btn btn-outline-warning">View</a>
+                            </div>
+
+                            <div class="col-6 d-grid ">
+                                <a href="#" class="btn btn-outline-light">View</a>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-4 col-sm-12 mb-4 d-flex justify-content-center">
-                    <div class="card text-center bg-transparent rounded-4 glass-look animate-effect" style="width: 18rem;">
-                        <img src="resources/nike.png" class="card-img-top" alt="...">
+                <div class="col-10 col-md-6 col-lg-3 mb-5 d-flex justify-content-center">
+                    <div class="card text-center bg-transparent rounded-4 glass-look animate-effect border border-secondary">
+                        <img src="resources/zero.png" class="card-img img-fluid rounded-top-4" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title text-light">Card title</h5>
-                            <p class="card-text text-light">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <h4 class="card-title text-light fw-bold">Nike Airforce</h4>
+                            <p class="card-text text-light">Vietnam Imported Nike Air Force 1 Premium Quality</p>
+                            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                        </div>
+                        <div class="row justify-content-center p-3">
+                            <div class="col-6 d-grid ">
+                                <a href="#" class="btn btn-outline-warning">View</a>
+                            </div>
+
+                            <div class="col-6 d-grid ">
+                                <a href="#" class="btn btn-outline-light">View</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -325,9 +404,6 @@
                 <!-- Product Card row 2 -->
 
 
-                
-
-                
 
 
             </div>
