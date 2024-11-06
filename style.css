@@ -311,3 +311,13 @@
 body {
   scroll-behavior: smooth;
 }
+
+
+
+/* Social medeia icon effect */
+
+.social-media-effect:hover{
+  transition: transform 0.4s ease;
+  transform: scale(1.5);
+  box-shadow: 0px 8px 16px rgba(255, 255, 255, 0.425);
+}
