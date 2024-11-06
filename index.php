@@ -164,14 +164,14 @@
 
     <section>
 
-        <div class="container d-flex flex-column justify-content-center mt-sm-0 mt-5">
-
-            <div>
-                <h3 class="fw- text-light text-center" style="font-family: poppins;">Our Features</h3>
-                <hr class="text-light ">
-            </div>
+        <div class="container d-flex justify-content-center mt-5">
 
             <div class="row col-12 justify-content-center gap-3">
+
+                <div mt-5>
+                    <h3 class="fw-bold text-light text-center" style="font-family: poppins;">Our Features &nbsp;-></h3>
+                    <hr class="text-light ">
+                </div>
 
                 <div class="col-12 col-md-6 hlw">
                     <div class="border border-secondary py-3 rounded-4 glass-look animate-effect text-center">
@@ -223,7 +223,7 @@
         <div class="container d-flex justify-content-center mt-5">
             <div class="row col-12 justify-content-center">
                 <div>
-                    <h3 class="fw-bold text-light text-center" style="font-family: poppins;">SHOP NOW</h3>
+                    <h3 class="fw-bold text-light text-center" style="font-family: poppins;">Shop Now &nbsp;-></h3>
                     <hr class="text-light ">
                 </div>
 
