@@ -24,7 +24,7 @@
                         <!-- Facebook -->
                         <a
                             data-mdb-ripple-init
-                            class="btn text-white btn-floating m-1"
+                            class="btn text-white btn-floating m-1 mx-2 social-media-effect"
                             style="background-color: #3b5998;"
                             href="#!"
                             role="button"><i class="fab fa-facebook-f"></i></a>
@@ -32,7 +32,7 @@
                         <!-- Twitter -->
                         <a
                             data-mdb-ripple-init
-                            class="btn text-white btn-floating m-1"
+                            class="btn text-white btn-floating m-1 mx-2 social-media-effect"
                             style="background-color: #55acee;"
                             href="#!"
                             role="button"><i class="fab fa-twitter"></i></a>
@@ -40,7 +40,7 @@
                         <!-- Google -->
                         <a
                             data-mdb-ripple-init
-                            class="btn text-white btn-floating m-1"
+                            class="btn text-white btn-floating m-1 mx-2 social-media-effect"
                             style="background-color: #dd4b39;"
                             href="#!"
                             role="button"><i class="fab fa-google"></i></a>
@@ -48,7 +48,7 @@
                         <!-- Instagram -->
                         <a
                             data-mdb-ripple-init
-                            class="btn text-white btn-floating m-1"
+                            class="btn text-white btn-floating m-1 mx-2 social-media-effect"
                             style="background-color: #ac2bac;"
                             href="#!"
                             role="button"><i class="fab fa-instagram"></i></a>
@@ -56,14 +56,14 @@
                         <!-- Linkedin -->
                         <a
                             data-mdb-ripple-init
-                            class="btn text-white btn-floating m-1"
+                            class="btn text-white btn-floating m-1 mx-2 social-media-effect"
                             style="background-color: #0082ca;"
                             href="#!"
                             role="button"><i class="fab fa-linkedin-in"></i></a>
                         <!-- Github -->
                         <a
                             data-mdb-ripple-init
-                            class="btn text-white btn-floating m-1"
+                            class="btn text-white btn-floating m-1 mx-2 border border-secondary social-media-effect"
                             style="background-color: #333333;"
                             href="#!"
                             role="button"><i class="fab fa-github"></i></a>

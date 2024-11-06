@@ -19,6 +19,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Font Awesome -->
 
+    <!-- Reurn to top icon -->
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <!-- Reurn to top icon -->
+
     <!-- link css file -->
     <link rel="stylesheet" href="style.css">
     <!-- link css file -->
@@ -50,15 +54,15 @@
                     </button>
 
                     <!-- Nav items section -->
-                    <div class="collapse navbar-collapse justify-content-center align-items-center flex-md-row" id="navbarSupportedContent">
+                    <div class="collapse navbar-collapse justify-content-center align-items-center flex-row" id="navbarSupportedContent">
                         <ul class="navbar-nav mb-2 mb-lg-0">
-                            <li class="nav-item mx-4 p-3 p-md-0 p-lg-0 p-xl-0">
+                            <li class="nav-item mx-4 p-3 ">
                                 <a class="nav-link active custom-font text-light fw-semibold p-0"
                                     style="font-size: 18px; font-family: poppins;" aria-current="page" href="#">Home</a>
                             </li>
 
                             <!-- Dropdown for Category -->
-                            <li class="nav-item dropdown mx-4 p-3 p-md-0 p-lg-0 p-xl-0">
+                            <li class="nav-item dropdown mx-4 p-3">
                                 <a class="nav-link dropdown-toggle custom-font text-light fw-semibold p-0"
                                     style="font-size: 18px; font-family: poppins;" href="#" role="button"
                                     data-bs-toggle="dropdown" aria-expanded="false">
@@ -77,12 +81,12 @@
                                 </ul>
                             </li>
 
-                            <li class="nav-item mx-4 p-3 p-md-0 p-lg-0 p-xl-0">
+                            <li class="nav-item mx-4 p-3">
                                 <a class="nav-link custom-font text-light fw-semibold p-0"
                                     style="font-size: 18px; font-family: poppins;" href="#">Our Story</a>
                             </li>
 
-                            <li class="nav-item mx-4 p-3 p-md-0 p-lg-0 p-xl-0">
+                            <li class="nav-item mx-4 p-3">
                                 <a class="nav-link custom-font text-light fw-semibold p-0"
                                     style="font-size: 18px; font-family: poppins;" href="#">Contact Us</a>
                             </li>
@@ -410,6 +414,30 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <!-- Footer Start -->
 
     <?php
@@ -421,6 +449,20 @@
     <!-- Footer End -->
 
 
+    <!-- Whatsapp contact widget -->
+    <!-- <a href="https://wa.me/94751887145" class="float " target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" />
+    </a> -->
+
+    <a href="https://wa.me/YOUR_PHONE_NUMBER" class="float" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" />
+    </a>
+    <!-- Whatsapp contact widget -->
+
+
+    <!-- Return to top -->
+    <a href="#" class="back-to-top"><i class="fa-solid fa-angle-up arrow"></i></a>
+    <!-- Return to top -->
 
 
 
@@ -434,6 +476,7 @@
 
     <!-- You can use latest version of jQuery  -->
     <script src="jquery-1.9.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
     <!-- You can use latest version of jQuery  -->
 
@@ -450,6 +493,7 @@
     <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js" integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js" integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9" crossorigin="anonymous"></script>
     <!-- For carosoul -->
+
 
 </body>
 
