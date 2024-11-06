@@ -7,7 +7,6 @@
 
     <!-- For carosoul -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
-    <!-- <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous"> -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons">
     <!-- For carosoul -->
@@ -15,6 +14,10 @@
     <!--link Bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
     <!--link Bootstrap -->
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Font Awesome -->
 
     <!-- link css file -->
     <link rel="stylesheet" href="style.css">
@@ -418,16 +421,15 @@
 
 
 
+<!-- Footer Start -->
 
+<?php
 
+include "footer.php";
 
+?>
 
-
-
-
-
-
-
+<!-- Footer End -->
 
 
 
@@ -443,11 +445,15 @@
 
     <!-- You can use latest version of jQuery  -->
     <script src="jquery-1.9.1.min.js"></script>
+
     <!-- You can use latest version of jQuery  -->
 
 
     <!-- link js bootstrap cdn link -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
     <!-- link js bootstrap cdn link -->
 
     <!-- For carosoul -->

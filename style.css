@@ -222,3 +222,18 @@
 }
 
 /* Product card area height------------------------------------------------------------------------------------ */
+
+
+
+
+
+
+/* Footer start */
+
+.footer-glass-look {
+  background-color: rgba(92, 92, 92, 0.192);
+  box-shadow: 0 0 10px 1px rgba(90, 90, 90, 0.25);
+  backdrop-filter: blur(5px);
+}
+
+/* Footer end */
