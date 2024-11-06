@@ -13,7 +13,8 @@
 
 .bgimage::before {
   content: "";
-  background-image: url("resources/shadow.jpg");
+  /* background-image: url("resources/shadow.jpg"); */
+  background-image: url("resources/glowingDarkShoe.png");
   /* background-image: url("resources/pair.png"); */
   background-size: cover;
   background-position: center;
@@ -106,6 +107,8 @@
   position: relative;
   width: 100%;
   overflow: hidden;
+  border: 1px solid gray;
+  border-radius: 15px;
 }
 
 .carousel-item {
@@ -116,7 +119,9 @@
   transition: transform 0.6s ease;
   backface-visibility: hidden;
   perspective: 1000px;
-  border-radius: 20px;
+  border: 1px solid gray;
+  border-radius: 15px;
+  
 }
 
 .carousel-item.active {

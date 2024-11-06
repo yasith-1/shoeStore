@@ -31,77 +31,66 @@
 <body class="body-bg-effect bgimage">
 
     <!-- Navbar start  ---------------------------------------------------------------------------------------------------------------------------->
-    <section class="sticky-top  d-flex justify-content-center mt-3 ">
-
-
-        <div class="glass shadow shadow-lg rounded-3 " style="width: 90%;">
+    <section class="sticky-top d-flex justify-content-center align-items-center mt-3">
+        <div class="glass shadow shadow-lg rounded-3" style="width: 90%;">
             <nav class="navbar navbar-dark navbar-expand-lg px-0">
-                <div class="container-fluid d-flex justify-content-center gap-5">
-                    <a class="navbar-brand justify-content-center align-items-center d-flex gap-3" href="index.php">
-                        <img src="./resources/skylinelogo.png" class="rounded-pill" alt="Logo" width="60" class="d-inline-block align-text-top">
+                <div class="container-fluid">
+                    <!-- Logo and brand name section, aligned to the center on larger screens -->
+                    <a class="navbar-brand d-flex align-items-center ms-4 mx-auto" href="#">
+                        <img src="./resources/skylinelogo.png" class="rounded-pill" alt="Logo" width="60">
+                        <!-- Uncomment this span for text logo -->
                         <!-- <span class="fw-bold text-light" style="font-family: poppins; letter-spacing: 1px; font-size: 30px;">SKYLINE</span> -->
                     </a>
 
+                    <!-- Toggler button aligned to the end -->
+                    <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
 
+                    <!-- Nav items section -->
+                    <div class="collapse navbar-collapse justify-content-center align-items-center flex-md-row" id="navbarSupportedContent">
+                        <ul class="navbar-nav mb-2 mb-lg-0">
+                            <li class="nav-item mx-4 p-3 p-md-0 p-lg-0 p-xl-0">
+                                <a class="nav-link active custom-font text-light fw-semibold p-0"
+                                    style="font-size: 18px; font-family: poppins;" aria-current="page" href="#">Home</a>
+                            </li>
 
-                    <section>
-                        <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                    </section>
+                            <!-- Dropdown for Category -->
+                            <li class="nav-item dropdown mx-4 p-3 p-md-0 p-lg-0 p-xl-0">
+                                <a class="nav-link dropdown-toggle custom-font text-light fw-semibold p-0"
+                                    style="font-size: 18px; font-family: poppins;" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Category
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item custom-font" href="#">Men's Shoes</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item custom-font" href="#">Women's Shoes</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item custom-font" href="#">Kids Shoes</a></li>
+                                </ul>
+                            </li>
 
+                            <li class="nav-item mx-4 p-3 p-md-0 p-lg-0 p-xl-0">
+                                <a class="nav-link custom-font text-light fw-semibold p-0"
+                                    style="font-size: 18px; font-family: poppins;" href="#">Our Story</a>
+                            </li>
 
-
-
-                    <section>
-                        <!-- Nav Items -->
-                        <div class="collapse navbar-collapse " id="navbarSupportedContent">
-                            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
-
-                                <li class="nav-item nav-item-width btn btn-secondary bg-transparent border-0">
-                                    <a class="nav-link active custom-font text-light fw-semibold t p-0" style="font-size: 18px; font-family: poppins;" aria-current="page" href="#">Home</a>
-                                </li>
-                                &nbsp;&nbsp;&nbsp;&nbsp;
-
-                                <!-- Dropdown -->
-                                <li class="nav-item dropdown nav-item-width btn btn-secondary bg-transparent border-0">
-                                    <a class="nav-link dropdown-toggle custom-font text-light fw-semibold p-0" style="font-size: 18px; font-family: poppins;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        Category
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item custom-font" href="#">Men's Shoes</a></li>
-                                        <li>
-                                            <hr class="dropdown-divider">
-                                        </li>
-                                        <li><a class="dropdown-item custom-font" href="#">Women's Shoes</a></li>
-                                        <li>
-                                            <hr class="dropdown-divider">
-                                        </li>
-                                        <li><a class="dropdown-item custom-font" href="#">Kids Shoes</a></li>
-                                    </ul>
-                                </li>
-                                <!-- Dropdown -->
-
-                                &nbsp;&nbsp;&nbsp;&nbsp;
-                                <li class="nav-item nav-item-width btn btn-secondary bg-transparent border-0">
-                                    <a class="nav-link active custom-font text-light fw-semibold  p-0" style="font-size: 18px; font-family: poppins;" href="#">Our Story</a>
-                                </li>
-
-                                &nbsp;&nbsp;&nbsp;&nbsp;
-                                <li class="nav-item btn btn-outline-secondary nav-item-width">
-                                    <a class="nav-link active custom-font text-light fw-semibold p-0" style="font-size: 18px; font-family: poppins;" href="#">Contact Us</a>
-                                </li>
-
-                            </ul>
-                            <!-- Nav Items -->
-                        </div>
-
-                    </section>
-
+                            <li class="nav-item mx-4 p-3 p-md-0 p-lg-0 p-xl-0">
+                                <a class="nav-link custom-font text-light fw-semibold p-0"
+                                    style="font-size: 18px; font-family: poppins;" href="#">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </nav>
         </div>
-
     </section>
     <!-- Navbar end  ------------------------------------------------------------------------------------------------------------------------------------>
 
@@ -421,15 +410,15 @@
 
 
 
-<!-- Footer Start -->
+    <!-- Footer Start -->
 
-<?php
+    <?php
 
-include "footer.php";
+    include "footer.php";
 
-?>
+    ?>
 
-<!-- Footer End -->
+    <!-- Footer End -->
 
 
 
