@@ -448,12 +448,6 @@
 
     <!-- Footer End -->
 
-
-    <!-- Whatsapp contact widget -->
-    <!-- <a href="https://wa.me/94751887145" class="float " target="_blank">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" />
-    </a> -->
-
     <a href="https://wa.me/YOUR_PHONE_NUMBER" class="float" target="_blank">
         <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" />
     </a>
@@ -461,7 +455,7 @@
 
 
     <!-- Return to top -->
-    <a href="#" class="back-to-top"><i class="fa-solid fa-angle-up arrow"></i></a>
+    <a href="#" class="back-to-top"><i class="fa-solid fa-angle-up" style="color: #ffffff;"></i></a>
     <!-- Return to top -->
 
 
