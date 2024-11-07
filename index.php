@@ -41,9 +41,9 @@
                 <div class="container-fluid">
                     <!-- Logo and brand name section, aligned to the center on larger screens -->
                     <a class="navbar-brand d-flex align-items-center ms-4 mx-auto" href="#">
-                        <img src="./resources/shoeplazanav.png" class="rounded-pill img-fluid" alt="Logo" width="75">
+                        <img src="./resources/shoeplazanav.png" class="rounded-pill img-fluid" alt="Logo" width="75" onclick="refreshPage();">
                         <!-- Uncomment this span for text logo -->
-                        <span class="fw-bold text-light" style="font-family:Verdana, Geneva, Tahoma, sans-serif; letter-spacing: 1px; font-size: 25px; z-index: 99999;">SHOE <span style="color: orange;">PLAZA</span></span>
+                        <span class="fw-bold text-light" onclick="refreshPage();" style="font-family:Verdana, Geneva, Tahoma, sans-serif; letter-spacing: 1px; font-size: 25px; ">SHOE <span style="color: orange;">PLAZA</span></span>
                     </a>
 
                     <!-- Toggler button aligned to the end -->
@@ -58,7 +58,7 @@
                         <ul class="navbar-nav mb-2 mb-lg-0">
                             <li class="nav-item mx-4 p-3 ">
                                 <a class="nav-link active custom-font text-light fw-semibold p-0"
-                                    style="font-size: 18px; font-family: poppins;" aria-current="page" href="#">Home</a>
+                                    style="font-size: 18px; font-family: poppins;" aria-current="page" href="#" onclick="refreshPage();">Home</a>
                             </li>
 
                             <!-- Dropdown for Category -->
@@ -229,7 +229,7 @@
 
                 <!-- Product Card row 1 -->
 
-                <div class="col-9 col-md-6 col-lg-3 mb-5 d-flex justify-content-center">
+                <div class="col-9 col-md-6 col-lg-3 mb-4 d-flex justify-content-center">
                     <div class="card text-center bg-transparent rounded-4 glass-look animate-effect border border-secondary">
                         <img src="shoes/zero.png" class="card-img img-fluid rounded-top-4" alt="...">
                         <div class="card-body">
@@ -253,7 +253,7 @@
                     </div>
                 </div>
 
-                <div class="col-9 col-md-6 col-lg-3 mb-5 d-flex justify-content-center">
+                <div class="col-9 col-md-6 col-lg-3 mb-4 d-flex justify-content-center">
                     <div class="card text-center bg-transparent rounded-4 glass-look animate-effect border border-secondary">
                         <img src="shoes/whitedunk.png" class="card-img img-fluid rounded-top-4" alt="...">
                         <div class="card-body">
@@ -276,7 +276,7 @@
                     </div>
                 </div>
 
-                <div class="col-9 col-md-6 col-lg-3 mb-5 d-flex justify-content-center">
+                <div class="col-9 col-md-6 col-lg-3 mb-4 d-flex justify-content-center">
                     <div class="card text-center bg-transparent rounded-4 glass-look animate-effect border border-secondary">
                         <img src="shoes/Rednike.png" class="card-img img-fluid rounded-top-4" alt="...">
                         <div class="card-body">
@@ -299,7 +299,7 @@
                     </div>
                 </div>
 
-                <div class="col-9 col-md-6 col-lg-3 mb-5 d-flex justify-content-center">
+                <div class="col-9 col-md-6 col-lg-3 mb-4 d-flex justify-content-center">
                     <div class="card text-center bg-transparent rounded-4 glass-look animate-effect border border-secondary">
                         <img src="shoes/blacknike.png" class="card-img img-fluid rounded-top-4" alt="...">
                         <div class="card-body">
@@ -322,7 +322,7 @@
                     </div>
                 </div>
 
-                <div class="col-9 col-md-6 col-lg-3 mb-5 d-flex justify-content-center">
+                <div class="col-9 col-md-6 col-lg-3 mb-4 d-flex justify-content-center">
                     <div class="card text-center bg-transparent rounded-4 glass-look animate-effect border border-secondary">
                         <img src="shoes/whiteNike.png" class="card-img img-fluid rounded-top-4" alt="...">
                         <div class="card-body">
@@ -346,7 +346,7 @@
                 </div>
 
 
-                <div class="col-9 col-md-6 col-lg-3 mb-5 d-flex justify-content-center">
+                <div class="col-9 col-md-6 col-lg-3 mb-4 d-flex justify-content-center">
                     <div class="card text-center bg-transparent rounded-4 glass-look animate-effect border border-secondary">
                         <img src="shoes/sneakerwhite.png" class="card-img img-fluid rounded-top-4" alt="...">
                         <div class="card-body">
@@ -369,7 +369,7 @@
                     </div>
                 </div>
 
-                <div class="col-9 col-md-6 col-lg-3 mb-5 d-flex justify-content-center">
+                <div class="col-9 col-md-6 col-lg-3 mb-4 d-flex justify-content-center">
                     <div class="card text-center bg-transparent rounded-4 glass-look animate-effect border border-secondary">
                         <img src="shoes/sneakerblack.png" class="card-img img-fluid rounded-top-4" alt="...">
                         <div class="card-body">
@@ -392,7 +392,7 @@
                     </div>
                 </div>
 
-                <div class="col-9 col-md-6 col-lg-3 mb-5 d-flex justify-content-center">
+                <div class="col-9 col-md-6 col-lg-3 mb-4 d-flex justify-content-center">
                     <div class="card text-center bg-transparent rounded-4 glass-look animate-effect border border-secondary">
                         <img src="shoes/sneakerred.png" class="card-img img-fluid rounded-top-4" alt="...">
                         <div class="card-body">
@@ -428,7 +428,7 @@
 
 
 
-    
+
 
     <!-- Footer area start-->
 
@@ -458,14 +458,6 @@
                             style="background-color: #55acee;"
                             href="#!"
                             role="button"><i class="fab fa-twitter"></i></a>
-
-                        <!-- Google -->
-                        <a
-                            data-mdb-ripple-init
-                            class="btn text-white btn-floating m-1 mx-2 social-media-effect"
-                            style="background-color: #dd4b39;"
-                            href="#!"
-                            role="button"><i class="fab fa-google"></i></a>
 
                         <!-- Instagram -->
                         <a
@@ -526,7 +518,7 @@
 
 
 
-    <a href="https://wa.me/YOUR_PHONE_NUMBER" class="float" target="_blank">
+    <a href="https://wa.me/94701410113" class="float" target="_blank">
         <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" />
     </a>
     <!-- Whatsapp contact widget -->

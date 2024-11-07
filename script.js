@@ -21,11 +21,12 @@ window.addEventListener("scroll", function () {
     }
 });
 
-// Open WhatsApp link in a new tab on click
-$('.float').click(function () {
-    window.open("https://wa.me/94751887145", "_blank");
-    return false;
-});
 
 
+// Page relod when the click on navbar logo OR name
+
+function refreshPage() {
+    window.location.reload();
+
+}
 
