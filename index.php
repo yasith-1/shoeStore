@@ -229,7 +229,7 @@
 
                 <!-- Product Card row 1 -->
 
-                <div class="col-10 col-md-6 col-lg-3 mb-5 d-flex justify-content-center">
+                <div class="col-9 col-md-6 col-lg-3 mb-5 d-flex justify-content-center">
                     <div class="card text-center bg-transparent rounded-4 glass-look animate-effect border border-secondary">
                         <img src="shoes/zero.png" class="card-img img-fluid rounded-top-4" alt="...">
                         <div class="card-body">
@@ -253,7 +253,7 @@
                     </div>
                 </div>
 
-                <div class="col-10 col-md-6 col-lg-3 mb-5 d-flex justify-content-center">
+                <div class="col-9 col-md-6 col-lg-3 mb-5 d-flex justify-content-center">
                     <div class="card text-center bg-transparent rounded-4 glass-look animate-effect border border-secondary">
                         <img src="shoes/whitedunk.png" class="card-img img-fluid rounded-top-4" alt="...">
                         <div class="card-body">
@@ -276,7 +276,7 @@
                     </div>
                 </div>
 
-                <div class="col-10 col-md-6 col-lg-3 mb-5 d-flex justify-content-center">
+                <div class="col-9 col-md-6 col-lg-3 mb-5 d-flex justify-content-center">
                     <div class="card text-center bg-transparent rounded-4 glass-look animate-effect border border-secondary">
                         <img src="shoes/Rednike.png" class="card-img img-fluid rounded-top-4" alt="...">
                         <div class="card-body">
@@ -299,7 +299,7 @@
                     </div>
                 </div>
 
-                <div class="col-10 col-md-6 col-lg-3 mb-5 d-flex justify-content-center">
+                <div class="col-9 col-md-6 col-lg-3 mb-5 d-flex justify-content-center">
                     <div class="card text-center bg-transparent rounded-4 glass-look animate-effect border border-secondary">
                         <img src="shoes/blacknike.png" class="card-img img-fluid rounded-top-4" alt="...">
                         <div class="card-body">
@@ -322,7 +322,7 @@
                     </div>
                 </div>
 
-                <div class="col-10 col-md-6 col-lg-3 mb-5 d-flex justify-content-center">
+                <div class="col-9 col-md-6 col-lg-3 mb-5 d-flex justify-content-center">
                     <div class="card text-center bg-transparent rounded-4 glass-look animate-effect border border-secondary">
                         <img src="shoes/whiteNike.png" class="card-img img-fluid rounded-top-4" alt="...">
                         <div class="card-body">
@@ -346,7 +346,7 @@
                 </div>
 
 
-                <div class="col-10 col-md-6 col-lg-3 mb-5 d-flex justify-content-center">
+                <div class="col-9 col-md-6 col-lg-3 mb-5 d-flex justify-content-center">
                     <div class="card text-center bg-transparent rounded-4 glass-look animate-effect border border-secondary">
                         <img src="shoes/sneakerwhite.png" class="card-img img-fluid rounded-top-4" alt="...">
                         <div class="card-body">
@@ -369,7 +369,7 @@
                     </div>
                 </div>
 
-                <div class="col-10 col-md-6 col-lg-3 mb-5 d-flex justify-content-center">
+                <div class="col-9 col-md-6 col-lg-3 mb-5 d-flex justify-content-center">
                     <div class="card text-center bg-transparent rounded-4 glass-look animate-effect border border-secondary">
                         <img src="shoes/sneakerblack.png" class="card-img img-fluid rounded-top-4" alt="...">
                         <div class="card-body">
@@ -392,7 +392,7 @@
                     </div>
                 </div>
 
-                <div class="col-10 col-md-6 col-lg-3 mb-5 d-flex justify-content-center">
+                <div class="col-9 col-md-6 col-lg-3 mb-5 d-flex justify-content-center">
                     <div class="card text-center bg-transparent rounded-4 glass-look animate-effect border border-secondary">
                         <img src="shoes/sneakerred.png" class="card-img img-fluid rounded-top-4" alt="...">
                         <div class="card-body">
