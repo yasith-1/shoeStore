@@ -14,7 +14,8 @@
 .bgimage::before {
   content: "";
   /* background-image: url("resources/shadow.jpg"); */
-  background-image: url("resources/glowingDarkShoe.png");
+  /* background-image: url("resources/glowingDarkShoe.png"); */
+  background-image: url("resources/orangeshoe.png");
   /* background-image: url("resources/pair.png"); */
   background-size: cover;
   background-position: center;
@@ -24,7 +25,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  filter: blur(15px); /* Adjust the blur intensity here */
+  filter: blur(20px); /* Adjust the blur intensity here */
   z-index: -100;
 }
 
@@ -46,6 +47,48 @@
   background-color: rgba(94, 94, 94, 0.603);
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.178);
   backdrop-filter: blur(5px);
+}
+
+/* Decresea nav bar dropfilter amount in small & medium devices */
+
+/* Laptop (medium screens, between 992px and 1200px) */
+@media (max-width: 1200px) and (min-width: 992px) {
+  .glass {
+    /* background-color: rgba(255, 255, 255, 0.15); */
+    background-color: rgba(94, 94, 94, 0.603);
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.2);
+    backdrop-filter: none;
+  }
+}
+
+/* Tablet (between 768px and 992px) */
+@media (max-width: 992px) and (min-width: 768px) {
+  .glass {
+    /* background-color: rgba(255, 255, 255, 0.12); */
+    background-color: rgba(94, 94, 94, 0.603);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.18);
+    backdrop-filter: none;
+  }
+}
+
+/* Mobile (small screens, between 480px and 768px) */
+@media (max-width: 768px) and (min-width: 480px) {
+  .glass {
+    /* background-color: rgba(255, 255, 255, 0.1); */
+    background-color: rgba(94, 94, 94, 0.603);
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+    backdrop-filter: none;
+  }
+}
+
+/* Small Mobile (extra small screens, less than 480px) */
+@media (max-width: 480px) {
+  .glass {
+    /* background-color: rgba(255, 255, 255, 0.08); */
+    background-color: rgba(94, 94, 94, 0.603);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    backdrop-filter: none;
+  }
 }
 
 .carasoularea {
@@ -186,53 +229,62 @@
 
 /* Horizontal logo set div height -----------------------------------------------------------------------------*/
 
-/* Product card area height------------------------------------------------------------------------------------ */
 
 .card {
   cursor: pointer;
 }
 
-/* Increase opacity and reduce blur for small devices */
-@media (max-width: 576px) {
+/* make opacity and visibility in product cards */
+
+/* Desktop (large screens, 1200px and up) */
+@media (min-width: 1200px) {
   .glass-look {
     background-color: rgba(255, 255, 255, 0.103);
     backdrop-filter: none;
     border: 1px solid rgba(255, 255, 255, 0.2); /* Optional: adjust border */
     border-radius: 20px;
   }
-
-  .card-title,
-  .card-text {
-    font-size: 0.9rem; /* Slightly smaller font */
-  }
 }
 
-/* Increase opacity and reduce blur for Medium devices */
-@media (max-width: 768px) {
+/* Laptop (medium screens, between 992px and 1200px) */
+@media (max-width: 1200px) and (min-width: 992px) {
   .glass-look {
     background-color: rgba(255, 255, 255, 0.103);
     backdrop-filter: none;
     border: 1px solid rgba(255, 255, 255, 0.2); /* Optional: adjust border */
     border-radius: 20px;
   }
+}
 
-  .card-title,
-  .card-text {
-    font-size: 0.9rem; /* Slightly smaller font */
+/* Tablet (between 768px and 992px) */
+@media (max-width: 992px) and (min-width: 768px) {
+  .glass-look {
+    background-color: rgba(255, 255, 255, 0.103);
+    backdrop-filter: none;
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Optional: adjust border */
+    border-radius: 20px;
   }
 }
 
-/* Product card area height------------------------------------------------------------------------------------ */
-
-/* Footer start */
-
-.footer-glass-look {
-  background-color: rgba(92, 92, 92, 0.192);
-  box-shadow: 0 0 10px 1px rgba(90, 90, 90, 0.25);
-  backdrop-filter: blur(5px);
+/* Mobile (small screens, between 480px and 768px) */
+@media (max-width: 768px) and (min-width: 480px) {
+  .glass-look {
+    background-color: rgba(255, 255, 255, 0.103);
+    backdrop-filter: none;
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Optional: adjust border */
+    border-radius: 20px;
+  }
 }
 
-/* Footer end */
+/* Small Mobile (extra small screens, less than 480px) */
+@media (max-width: 480px) {
+  .glass-look {
+    background-color: rgba(255, 255, 255, 0.103);
+    backdrop-filter: none;
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Optional: adjust border */
+    border-radius: 20px;
+  }
+}
 
 /* WhatsApp Contact Button -----------------------------------------------------------------------------------------*/
 .float {
@@ -279,8 +331,6 @@
   }
 }
 
-
-
 /* Back to Top Button ------------------------------------------------------------------------------------------------------*/
 .back-to-top {
   position: fixed;
@@ -312,12 +362,33 @@ body {
   scroll-behavior: smooth;
 }
 
+/* Footer start */
 
+.footer-glass-look {
+  background-color: rgba(92, 92, 92, 0.192);
+  box-shadow: 0 0 10px 1px rgba(90, 90, 90, 0.25);
+  backdrop-filter: blur(5px);
+}
 
-/* Social medeia icon effect */
+/* Footer my name hover effect */
 
-.social-media-effect:hover{
+.namehover {
+  text-decoration: none;
+}
+.namehover:hover {
+  text-decoration: underline;
+}
+
+.social-media-effect:hover {
   transition: transform 0.4s ease;
   transform: scale(1.5);
   box-shadow: 0px 8px 16px rgba(255, 255, 255, 0.425);
 }
+
+.footer-logo-efect:hover {
+  transition: transform 0.4s ease;
+  transform: scale(1.2);
+  /* box-shadow: 0px 8px 16px rgba(255, 255, 255, 0.425); */
+}
+
+/* Footer end */

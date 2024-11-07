@@ -27,9 +27,9 @@
     <link rel="stylesheet" href="style.css">
     <!-- link css file -->
 
-    <link rel="shortcut icon" href="resources/skylinelogo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="resources/shoeplaza.png" type="image/x-icon">
 
-    <title>SKYLINE</title>
+    <title>SHOEPLAZA</title>
 </head>
 
 <body class="body-bg-effect bgimage">
@@ -37,17 +37,17 @@
     <!-- Navbar start  ---------------------------------------------------------------------------------------------------------------------------->
     <section class="sticky-top d-flex justify-content-center align-items-center mt-3">
         <div class="glass shadow shadow-lg rounded-3" style="width: 90%;">
-            <nav class="navbar navbar-dark navbar-expand-lg px-0">
+            <nav class="navbar navbar-dark navbar-expand-lg px-0 py-0">
                 <div class="container-fluid">
                     <!-- Logo and brand name section, aligned to the center on larger screens -->
                     <a class="navbar-brand d-flex align-items-center ms-4 mx-auto" href="#">
-                        <img src="./resources/skylinelogo.png" class="rounded-pill" alt="Logo" width="60">
+                        <img src="./resources/shoeplazanav.png" class="rounded-pill img-fluid" alt="Logo" width="75">
                         <!-- Uncomment this span for text logo -->
-                        <!-- <span class="fw-bold text-light" style="font-family: poppins; letter-spacing: 1px; font-size: 30px;">SKYLINE</span> -->
+                        <span class="fw-bold text-light" style="font-family:Verdana, Geneva, Tahoma, sans-serif; letter-spacing: 1px; font-size: 25px; z-index: 99999;">SHOE <span style="color: orange;">PLAZA</span></span>
                     </a>
 
                     <!-- Toggler button aligned to the end -->
-                    <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+                    <button class="navbar-toggler ms-auto border-0" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -101,7 +101,7 @@
 
     <!-- carosoul start---------------------------------------------------------------------------------------------------------------------------------->
 
-    <div class="container-fluid carasoularea col-12 col-lg-9 justify-content-center d-none d-md-block mb-5">
+    <div class="container-fluid carasoularea col-12 col-lg-9 justify-content-center d-none d-md-block " style="margin-bottom: 110px;">
 
         <!-- Carousel Card -->
         <div class="card card-raised card-carousel">
@@ -164,7 +164,7 @@
 
     <section>
 
-        <div class="container d-flex justify-content-center mt-5">
+        <div class="container d-flex justify-content-center mt-5" style="margin-bottom: 100px;">
 
             <div class="row col-12 justify-content-center gap-3">
 
@@ -231,13 +231,17 @@
 
                 <div class="col-10 col-md-6 col-lg-3 mb-5 d-flex justify-content-center">
                     <div class="card text-center bg-transparent rounded-4 glass-look animate-effect border border-secondary">
-                        <img src="resources/zero.png" class="card-img img-fluid rounded-top-4" alt="...">
+                        <img src="shoes/zero.png" class="card-img img-fluid rounded-top-4" alt="...">
                         <div class="card-body">
+                            <span class="badge text-bg-success mb-1">Vietnam</span>
                             <h4 class="card-title text-light fw-bold">Nike Airforce</h4>
-                            <p class="card-text text-light">Vietnam Imported Nike Air Force 1 Premium Quality</p>
-                            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                            <h5 class="text-light mt-3">Rs.9500/=</h5>
+                            <hr class="text-light">
+                            <span class="text-dark badge text-bg-warning rounded-4 mt-1 px-2">Available Sizes</span>
+                            <h5 class="text-light mt-2">41,42,43,44</h5>
+
                         </div>
-                        <div class="row justify-content-center p-3">
+                        <!-- <div class="row justify-content-center p-3">
                             <div class="col-6 d-grid ">
                                 <a href="#" class="btn btn-outline-warning">View</a>
                             </div>
@@ -245,19 +249,22 @@
                             <div class="col-6 d-grid ">
                                 <a href="#" class="btn btn-outline-light">View</a>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
 
                 <div class="col-10 col-md-6 col-lg-3 mb-5 d-flex justify-content-center">
                     <div class="card text-center bg-transparent rounded-4 glass-look animate-effect border border-secondary">
-                        <img src="resources/zero.png" class="card-img img-fluid rounded-top-4" alt="...">
+                        <img src="shoes/whitedunk.png" class="card-img img-fluid rounded-top-4" alt="...">
                         <div class="card-body">
-                            <h4 class="card-title text-light fw-bold">Nike Airforce</h4>
-                            <p class="card-text text-light">Vietnam Imported Nike Air Force 1 Premium Quality</p>
-                            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                            <span class="badge text-bg-success mb-1">Vietnam</span>
+                            <h4 class="card-title text-light fw-bold">Nike SB Dunk</h4>
+                            <h5 class="text-light mt-3">Rs.9500/=</h5>
+                            <hr class="text-light">
+                            <span class="text-dark badge text-bg-warning rounded-4 mt-1 px-2">Available Sizes</span>
+                            <h5 class="text-light mt-2">41,42,43,44</h5>
                         </div>
-                        <div class="row justify-content-center p-3">
+                        <!-- <div class="row justify-content-center p-3">
                             <div class="col-6 d-grid ">
                                 <a href="#" class="btn btn-outline-warning">View</a>
                             </div>
@@ -265,19 +272,22 @@
                             <div class="col-6 d-grid ">
                                 <a href="#" class="btn btn-outline-light">View</a>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
 
                 <div class="col-10 col-md-6 col-lg-3 mb-5 d-flex justify-content-center">
                     <div class="card text-center bg-transparent rounded-4 glass-look animate-effect border border-secondary">
-                        <img src="resources/zero.png" class="card-img img-fluid rounded-top-4" alt="...">
+                        <img src="shoes/Rednike.png" class="card-img img-fluid rounded-top-4" alt="...">
                         <div class="card-body">
-                            <h4 class="card-title text-light fw-bold">Nike Airforce</h4>
-                            <p class="card-text text-light">Vietnam Imported Nike Air Force 1 Premium Quality</p>
-                            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                            <span class="badge text-bg-success mb-1">Vietnam</span>
+                            <h4 class="card-title text-light fw-bold">Nike Zoom</h4>
+                            <h5 class="text-light mt-3">Rs.9500/=</h5>
+                            <hr class="text-light">
+                            <span class="text-dark badge text-bg-warning rounded-4 mt-1 px-2">Available Sizes</span>
+                            <h5 class="text-light mt-2">41,42,43,44</h5>
                         </div>
-                        <div class="row justify-content-center p-3">
+                        <!-- <div class="row justify-content-center p-3">
                             <div class="col-6 d-grid ">
                                 <a href="#" class="btn btn-outline-warning">View</a>
                             </div>
@@ -285,19 +295,22 @@
                             <div class="col-6 d-grid ">
                                 <a href="#" class="btn btn-outline-light">View</a>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
 
                 <div class="col-10 col-md-6 col-lg-3 mb-5 d-flex justify-content-center">
                     <div class="card text-center bg-transparent rounded-4 glass-look animate-effect border border-secondary">
-                        <img src="resources/zero.png" class="card-img img-fluid rounded-top-4" alt="...">
+                        <img src="shoes/blacknike.png" class="card-img img-fluid rounded-top-4" alt="...">
                         <div class="card-body">
-                            <h4 class="card-title text-light fw-bold">Nike Airforce</h4>
-                            <p class="card-text text-light">Vietnam Imported Nike Air Force 1 Premium Quality</p>
-                            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                            <span class="badge text-bg-success mb-1">Vietnam</span>
+                            <h4 class="card-title text-light fw-bold">Nike Zoom</h4>
+                            <h5 class="text-light mt-3">Rs.9500/=</h5>
+                            <hr class="text-light">
+                            <span class="text-dark badge text-bg-warning rounded-4 mt-1 px-2">Available Sizes</span>
+                            <h5 class="text-light mt-2">41,42,43,44</h5>
                         </div>
-                        <div class="row justify-content-center p-3">
+                        <!-- <div class="row justify-content-center p-3">
                             <div class="col-6 d-grid ">
                                 <a href="#" class="btn btn-outline-warning">View</a>
                             </div>
@@ -305,46 +318,22 @@
                             <div class="col-6 d-grid ">
                                 <a href="#" class="btn btn-outline-light">View</a>
                             </div>
-                        </div>
-                    </div>
-                </div>
-
-
-                <!-- Product Card row 1 -->
-
-
-
-                <!-- Product Card row 2 -->
-
-                <div class="col-10 col-md-6 col-lg-3 mb-5 d-flex justify-content-center">
-                    <div class="card text-center bg-transparent rounded-4 glass-look animate-effect border border-secondary">
-                        <img src="resources/zero.png" class="card-img img-fluid rounded-top-4" alt="...">
-                        <div class="card-body">
-                            <h4 class="card-title text-light fw-bold">Nike Airforce</h4>
-                            <p class="card-text text-light">Vietnam Imported Nike Air Force 1 Premium Quality</p>
-                            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-                        </div>
-                        <div class="row justify-content-center p-3">
-                            <div class="col-6 d-grid ">
-                                <a href="#" class="btn btn-outline-warning">View</a>
-                            </div>
-
-                            <div class="col-6 d-grid ">
-                                <a href="#" class="btn btn-outline-light">View</a>
-                            </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
 
                 <div class="col-10 col-md-6 col-lg-3 mb-5 d-flex justify-content-center">
                     <div class="card text-center bg-transparent rounded-4 glass-look animate-effect border border-secondary">
-                        <img src="resources/zero.png" class="card-img img-fluid rounded-top-4" alt="...">
+                        <img src="shoes/whiteNike.png" class="card-img img-fluid rounded-top-4" alt="...">
                         <div class="card-body">
-                            <h4 class="card-title text-light fw-bold">Nike Airforce</h4>
-                            <p class="card-text text-light">Vietnam Imported Nike Air Force 1 Premium Quality</p>
-                            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                            <span class="badge text-bg-success mb-1">Vietnam</span>
+                            <h4 class="card-title text-light fw-bold">Nike Zoom</h4>
+                            <h5 class="text-light mt-3">Rs.9500/=</h5>
+                            <hr class="text-light">
+                            <span class="text-dark badge text-bg-warning rounded-4 mt-1 px-2">Available Sizes</span>
+                            <h5 class="text-light mt-2">41,42,43,44</h5>
                         </div>
-                        <div class="row justify-content-center p-3">
+                        <!-- <div class="row justify-content-center p-3">
                             <div class="col-6 d-grid ">
                                 <a href="#" class="btn btn-outline-warning">View</a>
                             </div>
@@ -352,19 +341,46 @@
                             <div class="col-6 d-grid ">
                                 <a href="#" class="btn btn-outline-light">View</a>
                             </div>
+                        </div> -->
+                    </div>
+                </div>
+
+
+                <div class="col-10 col-md-6 col-lg-3 mb-5 d-flex justify-content-center">
+                    <div class="card text-center bg-transparent rounded-4 glass-look animate-effect border border-secondary">
+                        <img src="shoes/sneakerwhite.png" class="card-img img-fluid rounded-top-4" alt="...">
+                        <div class="card-body">
+                            <span class="badge text-bg-success mb-1">Malaysia </span>
+                            <h4 class="card-title text-light fw-bold">White Modern Sneaker</h4>
+                            <h5 class="text-light mt-3">Rs.9500/=</h5>
+                            <hr class="text-light">
+                            <span class="text-dark badge text-bg-warning rounded-4 mt-1 px-2">Available Sizes</span>
+                            <h5 class="text-light mt-2">41,42,43,44</h5>
                         </div>
+                        <!-- <div class="row justify-content-center p-3">
+                            <div class="col-6 d-grid ">
+                                <a href="#" class="btn btn-outline-warning">View</a>
+                            </div>
+
+                            <div class="col-6 d-grid ">
+                                <a href="#" class="btn btn-outline-light">View</a>
+                            </div>
+                        </div> -->
                     </div>
                 </div>
 
                 <div class="col-10 col-md-6 col-lg-3 mb-5 d-flex justify-content-center">
                     <div class="card text-center bg-transparent rounded-4 glass-look animate-effect border border-secondary">
-                        <img src="resources/zero.png" class="card-img img-fluid rounded-top-4" alt="...">
+                        <img src="shoes/sneakerblack.png" class="card-img img-fluid rounded-top-4" alt="...">
                         <div class="card-body">
-                            <h4 class="card-title text-light fw-bold">Nike Airforce</h4>
-                            <p class="card-text text-light">Vietnam Imported Nike Air Force 1 Premium Quality</p>
-                            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                            <span class="badge text-bg-success mb-1">Malaysia </span>
+                            <h4 class="card-title text-light fw-bold">Black Modern Sneaker</h4>
+                            <h5 class="text-light mt-3">Rs.9500/=</h5>
+                            <hr class="text-light">
+                            <span class="text-dark badge text-bg-warning rounded-4 mt-1 px-2">Available Sizes</span>
+                            <h5 class="text-light mt-2">41,42,43,44</h5>
                         </div>
-                        <div class="row justify-content-center p-3">
+                        <!-- <div class="row justify-content-center p-3">
                             <div class="col-6 d-grid ">
                                 <a href="#" class="btn btn-outline-warning">View</a>
                             </div>
@@ -372,19 +388,22 @@
                             <div class="col-6 d-grid ">
                                 <a href="#" class="btn btn-outline-light">View</a>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
 
                 <div class="col-10 col-md-6 col-lg-3 mb-5 d-flex justify-content-center">
                     <div class="card text-center bg-transparent rounded-4 glass-look animate-effect border border-secondary">
-                        <img src="resources/zero.png" class="card-img img-fluid rounded-top-4" alt="...">
+                        <img src="shoes/sneakerred.png" class="card-img img-fluid rounded-top-4" alt="...">
                         <div class="card-body">
-                            <h4 class="card-title text-light fw-bold">Nike Airforce</h4>
-                            <p class="card-text text-light">Vietnam Imported Nike Air Force 1 Premium Quality</p>
-                            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                            <span class="badge text-bg-success mb-1">Malaysia </span>
+                            <h4 class="card-title text-light fw-bold">Red Modern Sneaker</h4>
+                            <h5 class="text-light mt-3">Rs.9500/=</h5>
+                            <hr class="text-light">
+                            <span class="text-dark badge text-bg-warning rounded-4 mt-1 px-2">Available Sizes</span>
+                            <h5 class="text-light mt-2">41,42,43,44</h5>
                         </div>
-                        <div class="row justify-content-center p-3">
+                        <!-- <div class="row justify-content-center p-3">
                             <div class="col-6 d-grid ">
                                 <a href="#" class="btn btn-outline-warning">View</a>
                             </div>
@@ -392,12 +411,10 @@
                             <div class="col-6 d-grid ">
                                 <a href="#" class="btn btn-outline-light">View</a>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
 
-
-                <!-- Product Card row 2 -->
 
 
 

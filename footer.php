@@ -4,20 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>ShoePlaza</title>
 </head>
 
 <body>
     <!-- Footer area start-->
 
     <section>
-        <div class="container-fluid pt-5 ">
+        <div class="container-fluid ">
             <footer class="footer-glass-look text-center border border-start-0 border-end-0 border-secondary">
                 <!-- Grid container -->
                 <div class="container p-4 pb-0">
 
-                    <section class="mb-3">
-                        <img src="resources/skylinelogo.png" class="img-fluid" width="150px" srcset="">
+                    <section>
+                        <img src="resources/shoeplaza.png" class="img-fluid footer-logo-efect mb-4 mt-2" width="70px" srcset="">
                     </section>
                     <!-- Section: Social media -->
                     <section class="mb-4">
@@ -75,7 +75,7 @@
                 <!-- Copyright -->
                 <div class="text-center text-light p-3" style="background-color: rgba(0, 0, 0, 0.05);">
                     © 2024 Copyright Reserved:
-                    <a class="text-warning text-decoration-none" href="www.falconshoes.com">www.skyline.com</a>
+                    <a class="text-warning namehover" href="https://yasithportfolio.neocities.org/" target="_blank">Powered By Yasith Prabaswara</a>
                 </div>
                 <!-- Copyright -->
             </footer>
