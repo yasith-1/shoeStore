@@ -47,7 +47,7 @@
                     </a>
 
                     <!-- Toggler button aligned to the end -->
-                    <button class="navbar-toggler ms-auto border-0" type="button" data-bs-toggle="collapse"
+                    <button class="navbar-toggler ms-auto " type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -62,7 +62,7 @@
                             </li>
 
                             <!-- Dropdown for Category -->
-                            <li class="nav-item dropdown mx-4 p-3">
+                            <!-- <li class="nav-item dropdown mx-4 p-3">
                                 <a class="nav-link dropdown-toggle custom-font text-light fw-semibold p-0"
                                     style="font-size: 18px; font-family: poppins;" href="#" role="button"
                                     data-bs-toggle="dropdown" aria-expanded="false">
@@ -79,7 +79,7 @@
                                     </li>
                                     <li><a class="dropdown-item custom-font" href="#">Kids Shoes</a></li>
                                 </ul>
-                            </li>
+                            </li> -->
 
                             <li class="nav-item mx-4 p-3">
                                 <a class="nav-link custom-font text-light fw-semibold p-0"
@@ -428,6 +428,84 @@
 
 
 
+    
+
+    <!-- Footer area start-->
+
+    <section>
+        <div class="container-fluid ">
+            <footer class="footer-glass-look text-center border border-start-0 border-end-0 border-secondary">
+                <!-- Grid container -->
+                <div class="container p-4 pb-0">
+
+                    <section>
+                        <img src="resources/shoeplaza.png" class="img-fluid footer-logo-efect mb-4 mt-2" width="70px" srcset="">
+                    </section>
+                    <!-- Section: Social media -->
+                    <section class="mb-4">
+                        <!-- Facebook -->
+                        <a
+                            data-mdb-ripple-init
+                            class="btn text-white btn-floating m-1 mx-2 social-media-effect"
+                            style="background-color: #3b5998;"
+                            href="#!"
+                            role="button"><i class="fab fa-facebook-f"></i></a>
+
+                        <!-- Twitter -->
+                        <a
+                            data-mdb-ripple-init
+                            class="btn text-white btn-floating m-1 mx-2 social-media-effect"
+                            style="background-color: #55acee;"
+                            href="#!"
+                            role="button"><i class="fab fa-twitter"></i></a>
+
+                        <!-- Google -->
+                        <a
+                            data-mdb-ripple-init
+                            class="btn text-white btn-floating m-1 mx-2 social-media-effect"
+                            style="background-color: #dd4b39;"
+                            href="#!"
+                            role="button"><i class="fab fa-google"></i></a>
+
+                        <!-- Instagram -->
+                        <a
+                            data-mdb-ripple-init
+                            class="btn text-white btn-floating m-1 mx-2 social-media-effect"
+                            style="background-color: #ac2bac;"
+                            href="#!"
+                            role="button"><i class="fab fa-instagram"></i></a>
+
+                        <!-- Linkedin -->
+                        <a
+                            data-mdb-ripple-init
+                            class="btn text-white btn-floating m-1 mx-2 social-media-effect"
+                            style="background-color: #0082ca;"
+                            href="#!"
+                            role="button"><i class="fab fa-linkedin-in"></i></a>
+                        <!-- Github -->
+                        <a
+                            data-mdb-ripple-init
+                            class="btn text-white btn-floating m-1 mx-2 border border-secondary social-media-effect"
+                            style="background-color: #333333;"
+                            href="#!"
+                            role="button"><i class="fab fa-github"></i></a>
+                    </section>
+                    <!-- Section: Social media -->
+                </div>
+                <!-- Grid container -->
+
+                <!-- Copyright -->
+                <div class="text-center text-light p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+                    © 2024 Copyright Reserved:
+                    <a class="text-warning namehover" href="https://yasithportfolio.neocities.org/" target="_blank">Powered By Yasith Prabaswara</a>
+                </div>
+                <!-- Copyright -->
+            </footer>
+
+        </div>
+    </section>
+
+    <!-- Footer area end-->
 
 
 
@@ -447,23 +525,6 @@
 
 
 
-
-
-
-
-
-
-
-
-    <!-- Footer Start -->
-
-    <?php
-
-    include "footer.php";
-
-    ?>
-
-    <!-- Footer End -->
 
     <a href="https://wa.me/YOUR_PHONE_NUMBER" class="float" target="_blank">
         <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" />

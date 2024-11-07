@@ -43,6 +43,8 @@
   width: 140px;
 }
 
+/* Navbar------------------------------------------------------ */
+
 .glass {
   background-color: rgba(61, 61, 61, 0.658);
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.178);
@@ -90,6 +92,29 @@
     backdrop-filter: none;
   }
 }
+
+.navbar-toggler {
+  width: 40px; /* Adjust as needed */
+  height: 40px;
+  padding: 5px; /* Reduce padding if it's too large */
+  /* outline: none !important; */
+  border: none !important;
+}
+
+.navbar-toggler-icon {
+  margin-left: 5px;
+}
+
+btn:focus,
+a:focus {
+  outline: none;
+}
+.navbar-toggler:focus {
+  outline: none !important;
+  box-shadow: none;
+}
+
+/* Nav bar end ------------------------------------------------------------------ */
 
 .carasoularea {
   min-height: 60vh;
@@ -228,7 +253,6 @@
 }
 
 /* Horizontal logo set div height -----------------------------------------------------------------------------*/
-
 
 .card {
   cursor: pointer;
