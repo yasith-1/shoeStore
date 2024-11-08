@@ -1,4 +1,16 @@
-// Show button when scrolled down
+// Preloader
+var spinner = function () {
+    setTimeout(function () {
+        if ($('#spinner').length > 0) {
+            $('#spinner').removeClass('show');
+        }
+    }, 2000);
+};
+// spinner();
+
+
+
+// Back to top
 window.addEventListener("scroll", function () {
     const backToTopButton = document.querySelector(".back-to-top");
     if (window.scrollY > 300) {
@@ -20,6 +32,7 @@ window.addEventListener("scroll", function () {
         backToTopButton.style.display = "none";
     }
 });
+
 
 
 

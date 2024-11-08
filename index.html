@@ -34,12 +34,34 @@
     <link rel="stylesheet" href="animate.css">
     <!-- Animate.css -->
 
+    <!-- Preloader style -->
+    <script type="module" src="https://cdn.jsdelivr.net/npm/ldrs/dist/auto/quantum.js"></script>
+    <!-- Preloader style -->
+
     <link rel="shortcut icon" href="resources/shoeplaza.png" type="image/x-icon">
 
     <title>SHOEPLAZA</title>
 </head>
 
-<body class="body-bg-effect bgimage">
+<body class=" bgimage" onload="spinner();">
+
+    <!-- Spinner Start -->
+     
+    <div class="col-12 m-0 p-0 overflow-hidden">
+        <div id="spinner"
+            class="show bgimage position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+
+            <l-quantum size="70" speed="1.85" color="orange"></l-quantum>
+
+        </div>
+    </div>
+
+
+    <!-- Spinner End -->
+
+
+
+
 
     <!-- Navbar start  ---------------------------------------------------------------------------------------------------------------------------->
     <section class="sticky-top d-flex justify-content-center align-items-center mt-3">
@@ -121,15 +143,18 @@
 
             <div class="row g-5 align-items-center justify-content-center">
                 <div class="col-md-10 col-lg-4 px-3">
-                    <img src="resources/menstyle.png" alt="hero-image" class="img-fluid rounded-4 animate-effect wow animate__animated animate__backInLeft"
+                    <img src="resources/menstyle.png" alt="hero-image"
+                        class="img-fluid rounded-4 animate-effect wow animate__animated animate__backInLeft"
                         width="450px" data-wow-duration="3s">
                 </div>
                 <div class="col-md-10 col-lg-4 px-3">
-                    <img src="resources/unisexstyle.png" alt="hero-image" class="img-fluid rounded-4 animate-effect wow animate__animated animate__backInRight"
+                    <img src="resources/unisexstyle.png" alt="hero-image"
+                        class="img-fluid rounded-4 animate-effect wow animate__animated animate__backInRight"
                         width="450px" data-wow-duration="3s">
                 </div>
                 <div class="col-md-10 col-lg-4 px-3">
-                    <img src="resources/womenstyle.png" alt="hero-image" class="img-fluid rounded-4 animate-effect wow animate__animated animate__backInLeft"
+                    <img src="resources/womenstyle.png" alt="hero-image"
+                        class="img-fluid rounded-4 animate-effect wow animate__animated animate__backInLeft"
                         width="450px" data-wow-duration="3s">
                 </div>
             </div>
@@ -498,7 +523,7 @@
 
                     <section>
                         <img src="resources/shoeplaza.png" class="img-fluid footer-logo-efect mb-4 mt-2" width="70px"
-                            srcset="">
+                            alt="footerlogo">
                     </section>
                     <!-- Section: Social media -->
                     <section class="mb-4">
