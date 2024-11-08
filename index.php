@@ -30,6 +30,10 @@
     <link rel="stylesheet" href="style.css">
     <!-- link css file -->
 
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="animate.css">
+    <!-- Animate.css -->
+
     <link rel="shortcut icon" href="resources/shoeplaza.png" type="image/x-icon">
 
     <title>SHOEPLAZA</title>
@@ -111,22 +115,22 @@
 
     <!-- Intro Image start-------------------------------------------------------------------------------------------------------------------------------->
 
-    <div class="container-fluid d-flex justify-content-center mt-5 d-md-none d-sm-flex">
+    <div class="container-fluid d-flex justify-content-center mt-5 d-sm-flex d-md-none">
 
-        <div class="text-center col-9 mt-4 mb-4">
+        <div class="text-center col-9 mt-4 mb-4" data-wow-delay="1s">
 
             <div class="row g-5 align-items-center justify-content-center">
                 <div class="col-md-10 col-lg-4 px-3">
-                    <img src="resources/menstyle.png" alt="hero-image" class="img-fluid rounded-4 animate-effect "
-                        width="450px">
+                    <img src="resources/menstyle.png" alt="hero-image" class="img-fluid rounded-4 animate-effect wow animate__animated animate__backInLeft animate__slow"
+                        width="450px" data-wow-duration="2s">
                 </div>
                 <div class="col-md-10 col-lg-4 px-3">
-                    <img src="resources/unisexstyle.png" alt="hero-image" class="img-fluid rounded-4 animate-effect"
-                        width="450px">
+                    <img src="resources/unisexstyle.png" alt="hero-image" class="img-fluid rounded-4 animate-effect wow animate__animated animate__backInRight animate__slow"
+                        width="450px" data-wow-duration="2s">
                 </div>
                 <div class="col-md-10 col-lg-4 px-3">
-                    <img src="resources/womenstyle.png" alt="hero-image" class="img-fluid rounded-4 animate-effect"
-                        width="450px">
+                    <img src="resources/womenstyle.png" alt="hero-image" class="img-fluid rounded-4 animate-effect wow animate__animated animate__backInLeft animate__slow"
+                        width="450px" data-wow-duration="2s">
                 </div>
             </div>
         </div>
@@ -220,7 +224,7 @@
                 </div>
 
                 <div class="col-12 col-md-6 hlw">
-                    <div class="border border-secondary py-3 rounded-4 glass-look animate-effect text-center">
+                    <div class="border border-secondary py-3 rounded-4 glass-look animate-effect text-center wow animate__animated animate__backInLeft animate__slow" data-wow-duration="2s">
                         <img src="resources/delivery.png" alt="image">
                         <h4 class="text-light">Fast Delivery</h4>
                         <span class="text-light">Within 1-3 Days</span>
@@ -228,7 +232,7 @@
                 </div>
 
                 <div class="col-12 col-md-6 hlw">
-                    <div class="border border-secondary py-3 rounded-4 glass-look animate-effect text-center">
+                    <div class="border border-secondary py-3 rounded-4 glass-look animate-effect text-center wow animate__animated animate__backInRight animate__slow" data-wow-duration="2s">
                         <img src="resources/cod.png" alt="">
                         <h4 class="text-light">Trusted Payment</h4>
                         <span class="text-light">COD Available</span>
@@ -236,7 +240,7 @@
                 </div>
 
                 <div class="col-12 col-md-6 hlw">
-                    <div class="border border-secondary py-3 rounded-4 glass-look animate-effect text-center">
+                    <div class="border border-secondary py-3 rounded-4 glass-look animate-effect text-center wow animate__animated animate__backInLeft animate__slow" data-wow-duration="2s">
                         <img src="resources/exchanging.png" alt="">
                         <h4 class="text-light">Return Option</h4>
                         <span class="text-light">Return Within 7 Days</span>
@@ -244,7 +248,7 @@
                 </div>
 
                 <div class="col-12 col-md-6 hlw">
-                    <div class="border border-secondary py-3 rounded-4 glass-look animate-effect text-center">
+                    <div class="border border-secondary py-3 rounded-4 glass-look animate-effect text-center wow animate__animated animate__backInRight animate__slow" data-wow-duration="2s">
                         <img src="resources/payment.png" alt="">
                         <h4 class="text-light">Payments</h4>
                         <span class="text-light">COD | Bank Deposit</span>
@@ -575,21 +579,27 @@
     <script src="script.js"></script>
     <!-- link script.js file -->
 
-    <!-- Include js plugin -->
-    <script src="assets/owl-carousel/owl.carousel.js"></script>
-    <!-- Include js plugin -->
 
     <!-- You can use latest version of jQuery  -->
-    <script src="jquery-1.9.1.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
     <!-- You can use latest version of jQuery  -->
 
 
     <!-- link js bootstrap cdn link -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
+    <!-- wow.min.js -->
+    <script src="wow.min.js"></script>
+    <!-- wow.min.js -->
 
+
+    <script>
+        // Initialize wow.
+
+        if (window.innerWidth < 768) {
+            new WOW().init();
+        }
+    </script>
 
     <!-- link js bootstrap cdn link -->
 
