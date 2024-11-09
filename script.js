@@ -1,4 +1,4 @@
-// Preloader
+// Preloader manage option 1
 var spinner = function () {
     setTimeout(function () {
         if ($('#spinner').length > 0) {
@@ -6,7 +6,9 @@ var spinner = function () {
         }
     }, 2000);
 };
-// spinner();
+spinner();
+
+
 
 
 

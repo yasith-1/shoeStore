@@ -34,31 +34,40 @@
     <link rel="stylesheet" href="animate.css">
     <!-- Animate.css -->
 
-    <!-- Preloader style -->
+    <!-- Preloader style 1-->
     <script type="module" src="https://cdn.jsdelivr.net/npm/ldrs/dist/auto/quantum.js"></script>
-    <!-- Preloader style -->
+    <!-- Preloader style 1-->
+
+    <!-- Preloader style 2-->
+    <script type="module" src="https://cdn.jsdelivr.net/npm/ldrs/dist/auto/ripples.js"></script>
+    <!-- Preloader style 2-->
+
+    <!-- Preloader style 3-->
+    <script type="module" src="https://cdn.jsdelivr.net/npm/ldrs/dist/auto/waveform.js"></script>
+    <!-- Preloader style 3-->
 
     <link rel="shortcut icon" href="resources/shoeplaza.png" type="image/x-icon">
 
     <title>SHOEPLAZA</title>
 </head>
 
-<body class=" bgimage">
+<body class=" bgimage" id="body" onload="spinner();">
 
+    <!-- Spinner Start -->
 
-    <div class="container-fluid">
-        <!-- Spinner Start -->
+    <div class="col-12 ">
         <div id="spinner"
-            class="show bgimage position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            class="row show m-0 p-0 bgimage position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
 
-            <!-- preloader style 1 -->
-            <l-quantum size="75" speed="1.85" color="orange"></l-quantum>
+            <l-quantum size="70" speed="2.5" color="orange"></l-quantum>
+            <!-- <l-ripples size="65" speed="2" color="orange"></l-ripples> -->
+            <!-- <l-waveform size="45" stroke="3.5" speed="0.9" color="orange"></l-waveform> -->
 
         </div>
-        <!-- Spinner End -->
     </div>
 
 
+    <!-- Spinner End -->
 
 
 
@@ -142,19 +151,13 @@
 
             <div class="row g-5 align-items-center justify-content-center">
                 <div class="col-md-10 col-lg-4 px-3">
-                    <img src="resources/menstyle.png" alt="hero-image"
-                        class="img-fluid rounded-4 animate-effect wow animate__animated animate__backInLeft"
-                        width="450px" data-wow-duration="3s">
+                    <img src="resources/menstyle.png" alt="hero-image" class="img-fluid rounded-4" width="450px">
                 </div>
                 <div class="col-md-10 col-lg-4 px-3">
-                    <img src="resources/unisexstyle.png" alt="hero-image"
-                        class="img-fluid rounded-4 animate-effect wow animate__animated animate__backInRight"
-                        width="450px" data-wow-duration="3s">
+                    <img src="resources/unisexstyle.png" alt="hero-image" class="img-fluid rounded-4 " width="450px">
                 </div>
                 <div class="col-md-10 col-lg-4 px-3">
-                    <img src="resources/womenstyle.png" alt="hero-image"
-                        class="img-fluid rounded-4 animate-effect wow animate__animated animate__backInLeft"
-                        width="450px" data-wow-duration="3s">
+                    <img src="resources/womenstyle.png" alt="hero-image" class="img-fluid rounded-4" width="450px">
                 </div>
             </div>
         </div>
@@ -522,7 +525,7 @@
 
                     <section>
                         <img src="resources/shoeplaza.png" class="img-fluid footer-logo-efect mb-4 mt-2" width="70px"
-                            srcset="">
+                            alt="footerlogo">
                     </section>
                     <!-- Section: Social media -->
                     <section class="mb-4">
@@ -619,7 +622,7 @@
 
     <script>
         // Initialize wow.js
-        new WOW().init();
+        // new WOW().init();
     </script>
 
     <!-- link js bootstrap cdn link -->
