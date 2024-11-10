@@ -2,7 +2,12 @@
 
 .navfont {
   font-family: "Orbitron", sans-serif;
-  font-size: auto;
+  font-size: 16px;
+}
+
+.dropdownFont{
+  font-family: "Orbitron", sans-serif;
+  font-size: 12px;
 }
 
 * {
@@ -62,9 +67,6 @@
   }
 }
 
-.custom-font {
-  /* font-family: poppins; */
-}
 
 .custom-font:hover {
   color: black;
