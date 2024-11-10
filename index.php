@@ -98,16 +98,16 @@
                         id="navbarSupportedContent">
                         <ul class="navbar-nav mb-2 mb-lg-0">
                             <li class="nav-item mx-3 p-3 ">
-                                <a class="nav-link active custom-font text-light fw-semibold p-0"
-                                    style="font-size: 18px; font-family: poppins;" aria-current="page" href="#"
+                                <a class="nav-link active custom-font text-light fw-semibold p-0 navfont"
+                                    style="font-size: 18px;" aria-current="page" href="#"
                                     onclick="refreshPage();">Home</a>
                             </li>
 
                             <!-- Dropdown for Category -->
-                            <li class="nav-item dropdown mx-3 p-3">
-                                <a class="nav-link dropdown-toggle custom-font text-light fw-semibold p-0"
-                                    style="font-size: 18px; font-family: poppins;" href="#" role="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
+                            <!-- <li class="nav-item dropdown mx-3 p-3">
+                                <a class="nav-link dropdown-toggle custom-font text-light fw-semibold p-0 navfont"
+                                    style="font-size: 18px;" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
                                     Category
                                 </a>
                                 <ul class="dropdown-menu">
@@ -121,16 +121,16 @@
                                     </li>
                                     <li><a class="dropdown-item custom-font" href="#">Kids Shoes</a></li>
                                 </ul>
+                            </li> -->
+
+                            <li class="nav-item mx-3 p-3">
+                                <a class="nav-link custom-font text-light fw-semibold p-0 navfont"
+                                    style="font-size: 18px;" href="#">Our Story</a>
                             </li>
 
                             <li class="nav-item mx-3 p-3">
-                                <a class="nav-link custom-font text-light fw-semibold p-0"
-                                    style="font-size: 18px; font-family: poppins;" href="#">Our Story</a>
-                            </li>
-
-                            <li class="nav-item mx-3 p-3">
-                                <a class="nav-link custom-font text-light fw-semibold p-0"
-                                    style="font-size: 18px; font-family: poppins;" href="#">Contact Us</a>
+                                <a class="nav-link custom-font text-light fw-semibold p-0 navfont"
+                                    style="font-size: 18px;" href="#">Contact Us</a>
                             </li>
                         </ul>
                     </div>
@@ -150,14 +150,24 @@
         <div class="text-center col-9 mt-4 mb-4" data-wow-delay="1s">
 
             <div class="row g-5 align-items-center justify-content-center">
-                <div class="col-md-10 col-lg-4 px-3">
-                    <img src="resources/menstyle.png" alt="hero-image" class="img-fluid rounded-4" width="450px">
+                <div class="col-md-10 col-lg-4 px-3 introcard">
+                    <img src="resources/menstyle.png" alt="hero-image" class="img-fluid rounded-4 animate-effect"
+                        width="450px">
+
                 </div>
-                <div class="col-md-10 col-lg-4 px-3">
-                    <img src="resources/unisexstyle.png" alt="hero-image" class="img-fluid rounded-4 " width="450px">
+
+                <div class="col-md-10 col-lg-4 px-3 introcard">
+                    <img src="resources/unisexstyle.png" alt="hero-image" class="img-fluid rounded-4 animate-effect "
+                        width="450px">
+
+
                 </div>
-                <div class="col-md-10 col-lg-4 px-3">
-                    <img src="resources/womenstyle.png" alt="hero-image" class="img-fluid rounded-4" width="450px">
+
+                <div class="col-md-10 col-lg-4 px-3 introcard">
+                    <img src="resources/womenstyle.png" alt="hero-image" class="img-fluid rounded-4 animate-effect"
+                        width="450px">
+
+
                 </div>
             </div>
         </div>
@@ -313,7 +323,7 @@
                         <div class="card-body">
                             <span class="badge text-bg-success mb-1">Vietnam</span>
                             <h4 class="card-title text-light fw-bold">Nike Airforce</h4>
-                            <h5 class="text-light mt-3">Rs.9500/=</h5>
+                            <h5 class="text-light mt-3">Rs.8500/=</h5>
                             <hr class="text-light">
                             <span class="text-dark badge text-bg-warning rounded-4 mt-1 px-2">Available Sizes</span>
                             <h5 class="text-light mt-2">41,42,43,44</h5>
@@ -362,7 +372,7 @@
                         <div class="card-body">
                             <span class="badge text-bg-success mb-1">Vietnam</span>
                             <h4 class="card-title text-light fw-bold">Nike Zoom</h4>
-                            <h5 class="text-light mt-3">Rs.9500/=</h5>
+                            <h5 class="text-light mt-3">Rs.7500/=</h5>
                             <hr class="text-light">
                             <span class="text-dark badge text-bg-warning rounded-4 mt-1 px-2">Available Sizes</span>
                             <h5 class="text-light mt-2">41,42,43,44</h5>
@@ -386,7 +396,7 @@
                         <div class="card-body">
                             <span class="badge text-bg-success mb-1">Vietnam</span>
                             <h4 class="card-title text-light fw-bold">Nike Zoom</h4>
-                            <h5 class="text-light mt-3">Rs.9500/=</h5>
+                            <h5 class="text-light mt-3">Rs.7500/=</h5>
                             <hr class="text-light">
                             <span class="text-dark badge text-bg-warning rounded-4 mt-1 px-2">Available Sizes</span>
                             <h5 class="text-light mt-2">41,42,43,44</h5>
@@ -410,7 +420,7 @@
                         <div class="card-body">
                             <span class="badge text-bg-success mb-1">Vietnam</span>
                             <h4 class="card-title text-light fw-bold">Nike Zoom</h4>
-                            <h5 class="text-light mt-3">Rs.9500/=</h5>
+                            <h5 class="text-light mt-3">Rs.7500/=</h5>
                             <hr class="text-light">
                             <span class="text-dark badge text-bg-warning rounded-4 mt-1 px-2">Available Sizes</span>
                             <h5 class="text-light mt-2">41,42,43,44</h5>
@@ -435,7 +445,7 @@
                         <div class="card-body">
                             <span class="badge text-bg-success mb-1">Malaysia </span>
                             <h4 class="card-title text-light fw-bold">White Modern Sneaker</h4>
-                            <h5 class="text-light mt-3">Rs.9500/=</h5>
+                            <h5 class="text-light mt-3">Rs.5500/=</h5>
                             <hr class="text-light">
                             <span class="text-dark badge text-bg-warning rounded-4 mt-1 px-2">Available Sizes</span>
                             <h5 class="text-light mt-2">41,42,43,44</h5>
@@ -459,7 +469,7 @@
                         <div class="card-body">
                             <span class="badge text-bg-success mb-1">Malaysia </span>
                             <h4 class="card-title text-light fw-bold">Black Modern Sneaker</h4>
-                            <h5 class="text-light mt-3">Rs.9500/=</h5>
+                            <h5 class="text-light mt-3">Rs.5500/=</h5>
                             <hr class="text-light">
                             <span class="text-dark badge text-bg-warning rounded-4 mt-1 px-2">Available Sizes</span>
                             <h5 class="text-light mt-2">41,42,43,44</h5>
@@ -483,7 +493,7 @@
                         <div class="card-body">
                             <span class="badge text-bg-success mb-1">Malaysia </span>
                             <h4 class="card-title text-light fw-bold">Red Modern Sneaker</h4>
-                            <h5 class="text-light mt-3">Rs.9500/=</h5>
+                            <h5 class="text-light mt-3">Rs.5500/=</h5>
                             <hr class="text-light">
                             <span class="text-dark badge text-bg-warning rounded-4 mt-1 px-2">Available Sizes</span>
                             <h5 class="text-light mt-2">41,42,43,44</h5>
@@ -559,9 +569,9 @@
 
                 <!-- Copyright -->
                 <div class="text-center text-light p-3" style="background-color: rgba(0, 0, 0, 0.05);">
-                    © 2024 Copyright Reserved:
+                    © 2024 All right reserved:
                     <a class="text-warning namehover" href="https://yasithportfolio.neocities.org/"
-                        target="_blank">Powered By Yasith Prabaswara</a>
+                        target="_blank">Developed By Yasith Prabaswara</a>
                 </div>
                 <!-- Copyright -->
             </footer>
