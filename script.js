@@ -4,7 +4,7 @@ var spinner = function () {
         if ($('#spinner').length > 0) {
             $('#spinner').removeClass('show');
         }
-    }, 2000);
+    }, 2500);
 };
 spinner();
 

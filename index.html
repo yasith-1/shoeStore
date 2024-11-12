@@ -59,9 +59,9 @@
         <div id="spinner"
             class="row show m-0 p-0 bgimage position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
 
-            <l-quantum size="70" speed="2.5" color="orange"></l-quantum>
-            <!-- <l-ripples size="65" speed="2" color="orange"></l-ripples> -->
-            <!-- <l-waveform size="45" stroke="3.5" speed="0.9" color="orange"></l-waveform> -->
+            <!-- <l-quantum size="70" speed="2.5" color="orange"></l-quantum> -->
+            <!-- <l-ripples size="70" speed="2" color="orange"></l-ripples> -->
+            <l-waveform size="45" stroke="3.5" speed="1.2" color="orange"></l-waveform>
 
         </div>
     </div>
@@ -87,48 +87,59 @@
                     </a>
 
                     <!-- Toggler button aligned to the end -->
-                    <button class="navbar-toggler ms-auto " type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler ms-auto " type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar" aria-controls="navbarSupportedContent" aria-expanded="false"
+                        aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
 
-                    <!-- Nav items section -->
-                    <div class="collapse navbar-collapse justify-content-center align-items-center flex-row"
-                        id="navbarSupportedContent">
-                        <ul class="navbar-nav mb-2 mb-lg-0">
-                            <li class="nav-item mx-3 p-3 ">
-                                <a class="nav-link active custom-font text-light fw-semibold p-0 navfont" aria-current="page" href="#"
-                                    onclick="refreshPage();">Home</a>
-                            </li>
+                    <!-- Nav items offcanvas section -->
+                    <div class="offcanvas  offcanvas-end bg-dark text-white ms-2" style="z-index: 9999999;" id="offcanvasNavbar" tabindex="1">
 
-                            <!-- Dropdown for Category -->
-                            <li class="nav-item dropdown mx-3 p-3">
-                                <a class="nav-link dropdown-toggle custom-font text-light fw-semibold p-0 navfont" href="#" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
-                                    Category
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item dropdownFont" href="#">Men's Shoes</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item dropdownFont" href="#">Women's Shoes</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item dropdownFont" href="#">Kids Shoes</a></li>
-                                </ul>
-                            </li>
+                        <div class="offcanvas-header">
+                            <h4 class="offcanvas-title fw-semibold" style="font-family: poppins; letter-spacing: 2px;">Menu</h4>
+                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
 
-                            <li class="nav-item mx-3 p-3">
-                                <a class="nav-link custom-font text-light fw-semibold p-0 navfont" href="#">Our Story</a>
-                            </li>
+                        <div class="offcanvas-body ">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
 
-                            <li class="nav-item mx-3 p-3">
-                                <a class="nav-link custom-font text-light fw-semibold p-0 navfont" href="#">Contact Us</a>
-                            </li>
-                        </ul>
+                                <li class="nav-item mx-3">
+                                    <a class="nav-link active fw-semibold text-light navfont"
+                                        aria-current="page" href="#" aria-current="page" onclick="refreshPage();">Home</a>
+                                </li>
+
+                                <!-- Dropdown for Category -->
+                                <li class="nav-item dropdown mx-3">
+                                    <a class="nav-link dropdown-toggle text-light fw-semibold navfont"
+                                        href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Category
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item " href="#">Men's Shoes</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item " href="#">Women's Shoes</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item " href="#">Kids Shoes</a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="nav-item mx-3">
+                                    <a class="nav-link custom-font text-light fw-semibold navfont" href="#">Our
+                                        Story</a>
+                                </li>
+
+                                <li class="nav-item mx-3">
+                                    <a class="nav-link text-light fw-semibold navfont" href="#">Contact
+                                        Us</a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </nav>
